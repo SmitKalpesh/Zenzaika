@@ -232,3 +232,32 @@ body {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix for mobile scroll position */
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+  
+  /* Ensure the about section is visible */
+  #about-preview-section {
+    scroll-margin-top: 80px;
+  }
+}
+
+/* This ensures when scrolling to the section, it stops below the navbar */
+#about-preview-section {
+  scroll-margin-top: 80px;
+}
+
+/* Mobile specific adjustment */
+@media (max-width: 768px) {
+  #about-preview-section {
+    scroll-margin-top: 70px;
+  }
+}
