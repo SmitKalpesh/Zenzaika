@@ -208,3 +208,27 @@ body {
     gap: 32px !important;
   }
 }
+
+/* Mobile performance optimizations */
+@media (max-width: 768px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Disable all CSS animations on mobile */
+  .float, .pulse, [class*="floatAnimation"], [class*="pulseAnimation"] {
+    animation: none !important;
+    transform: none !important;
+  }
+  
+  /* Simplify transitions */
+  .btn-primary, .btn-outline-white, button {
+    transition: opacity 0.2s ease !important;
+    transform: none !important;
+  }
+  
+  /* Prevent scroll lag */
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
