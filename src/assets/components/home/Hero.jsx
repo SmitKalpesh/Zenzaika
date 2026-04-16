@@ -22,7 +22,7 @@ export const Hero = ({ setActivePage, scrollToAboutPreview }) => {
       display: "flex", 
       flexDirection: "column",
       justifyContent: "center",
-      backgroundImage: `linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(192,57,43,0.5) 50%, rgba(0,0,0,0.5) 100%), url('https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=2070&auto=format&fit=crop')`,
+      backgroundImage: `linear-gradient(135deg, rgba(0,0,0,0.4) 0%, rgba(192,57,43,0.4) 50%, rgba(0,0,0,0.4) 100%), url('https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800&auto=format&fit=crop')`,
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundAttachment: "scroll",
@@ -38,7 +38,7 @@ export const Hero = ({ setActivePage, scrollToAboutPreview }) => {
         pointerEvents: "none",
       }} />
       
-     
+      {/* Static decorative elements - visible on desktop only */}
     
 
       <div style={{ 
