@@ -1,28 +1,22 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { COLORS } from "../../data/constants";
 import { PRODUCTS } from "../../data/products";
 import { CATEGORIES } from "../../data/categories";
 import { ProductsGrid } from "../components/products/ProductsGrid";
+import { Breadcrumbs } from "../components/common/Breadcrumbs";
 
 export const ProductsPage = ({ setActivePage }) => {
   const [filter, setFilter] = useState("All");
   
-  // Generate filter categories from CATEGORIES data
   const cats = ["All", ...CATEGORIES.map(cat => cat.name)];
-  
-  // Filter products based on selected category - direct match
-  const filtered = filter === "All" 
-    ? PRODUCTS 
-    : PRODUCTS.filter(p => p.category === filter);
-
-
-  useEffect(() => {
-  }, [filter, filtered]);
+  const filtered = filter === "All" ? PRODUCTS : PRODUCTS.filter(p => p.category === filter);
 
   return (
     <div style={{ paddingTop: 72 }}>
-      <div style={{ background: `linear-gradient(135deg, ${COLORS.primaryRed}, ${COLORS.deepRed})`, padding: "80px 5vw 60px" }}>
+      <Breadcrumbs activePage="Products" setActivePage={setActivePage} />
+      
+      <div style={{ background: `linear-gradient(135deg, ${COLORS.primaryRed}, ${COLORS.deepRed})`, padding: "60px 5vw 50px" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", textAlign: "center" }}>
           <span className="section-badge" style={{ background: "rgba(255,255,255,0.15)", color: COLORS.lightGold, borderColor: "rgba(212,175,55,0.3)" }}>
             Our Range
@@ -48,10 +42,7 @@ export const ProductsPage = ({ setActivePage }) => {
                 key={c}
                 whileHover={{ scale: 1.02, y: -1 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => {
-                
-                  setFilter(c);
-                }}
+                onClick={() => setFilter(c)}
                 style={{
                   padding: "10px 24px", 
                   borderRadius: 50,
@@ -70,7 +61,6 @@ export const ProductsPage = ({ setActivePage }) => {
               </motion.button>
             ))}
           </motion.div>
-          
           <ProductsGrid setActivePage={setActivePage} products={filtered} limit={null} />
         </div>
       </section>

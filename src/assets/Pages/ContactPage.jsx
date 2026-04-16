@@ -2,8 +2,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { COLORS } from "../../data/constants";
 import { ScrollRevealSection } from "../components/common/ScrollRevealSection";
+import { Breadcrumbs } from "../components/common/Breadcrumbs";
 
-export const ContactPage = () => {
+export const ContactPage = ({setActivePage}) => {
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
   const [sent, setSent] = useState(false);
 
@@ -26,6 +27,7 @@ export const ContactPage = () => {
 
   return (
     <div style={{ paddingTop: 72 }}>
+      <Breadcrumbs activePage="Contact" setActivePage={setActivePage} />
       {/* Hero Section with new headline */}
       <div style={{ background: `linear-gradient(135deg, ${COLORS.primaryRed}, ${COLORS.deepRed})`, padding: "80px 5vw 60px", textAlign: "center" }}>
         <span className="section-badge" style={{ background: "rgba(255,255,255,0.15)", color: COLORS.lightGold, borderColor: "rgba(212,175,55,0.3)" }}>

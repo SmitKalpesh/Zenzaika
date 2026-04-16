@@ -2,8 +2,9 @@ import { motion } from "framer-motion";
 import { COLORS } from "../../data/constants";
 import { ScrollRevealSection } from "../components/common/ScrollRevealSection";
 import { staggerContainer, fadeUp } from "../../styles/animations";
+import { Breadcrumbs } from "../components/common/Breadcrumbs";
 
-export const AboutPage = () => {
+export const AboutPage = ( {setActivePage}) => {
   const values = [
     { icon: "🌱", title: "Farm to Shelf", desc: "We source directly from trusted farmers, ensuring freshness and fair trade at every step of the journey." },
     { icon: "⚗️", title: "Traditional Methods", desc: "Our masalas are stone-ground, our snacks slow-fried. No shortcuts, only the ancient ways that deliver real flavour." },
@@ -13,6 +14,7 @@ export const AboutPage = () => {
 
   return (
     <div style={{ paddingTop: 72 }}>
+      <Breadcrumbs activePage="About" setActivePage={setActivePage} />
       {/* Hero Section */}
       <div style={{ background: `linear-gradient(135deg, ${COLORS.primaryRed}, ${COLORS.deepRed})`, padding: "80px 5vw 60px", textAlign: "center" }}>
         <span className="section-badge" style={{ background: "rgba(255,255,255,0.15)", color: COLORS.lightGold, borderColor: "rgba(212,175,55,0.3)" }}>

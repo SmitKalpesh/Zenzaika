@@ -4,17 +4,16 @@ import { ScrollProgress } from "./assets/components/common/ScrollProgress";
 import { CustomCursor } from "./assets/components/common/CustomCursor";
 import { Navbar } from "./assets/components/common/Navbar";
 import { Footer } from "./assets/components/common/Footer";
+import { BackToTop } from "./assets/components/common/BackToTop";
 import { HomePage } from "./assets/Pages/HomePage";
 import { ProductsPage } from "./assets/Pages/ProductsPage";
 import { AboutPage } from "./assets/Pages/AboutPage";
 import { ContactPage } from "./assets/Pages/ContactPage";
 import "./styles/globals.css";
-import { BackToTop } from "./assets/components/common/BackToTop";
 
 function App() {
   const [activePage, setActivePage] = useState("Home");
 
-  // Reset scroll position to top on page load/refresh
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -23,11 +22,12 @@ function App() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [activePage]);
 
+  // Make sure setActivePage is passed correctly to all pages
   const pages = {
     Home: <HomePage setActivePage={setActivePage} />,
     Products: <ProductsPage setActivePage={setActivePage} />,
-    About: <AboutPage />,
-    Contact: <ContactPage />,
+    About: <AboutPage setActivePage={setActivePage} />,
+    Contact: <ContactPage setActivePage={setActivePage} />,
   };
 
   return (
@@ -49,7 +49,7 @@ function App() {
         </AnimatePresence>
       </main>
       <Footer setActivePage={setActivePage} />
-      <BackToTop/>
+      <BackToTop />
     </>
   );
 }
