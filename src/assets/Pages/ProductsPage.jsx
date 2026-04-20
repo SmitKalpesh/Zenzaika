@@ -5,12 +5,25 @@ import { PRODUCTS } from "../../data/products";
 import { CATEGORIES } from "../../data/categories";
 import { ProductsGrid } from "../components/products/ProductsGrid";
 import { Breadcrumbs } from "../components/common/Breadcrumbs";
+import { ProductDetailPage } from "./ProductDetailPage"; // Import the detail page
 
 export const ProductsPage = ({ setActivePage }) => {
   const [filter, setFilter] = useState("All");
+  const [selectedProduct, setSelectedProduct] = useState(null); // Add this state
   
   const cats = ["All", ...CATEGORIES.map(cat => cat.name)];
   const filtered = filter === "All" ? PRODUCTS : PRODUCTS.filter(p => p.category === filter);
+
+  // Add this function to handle product click
+  const handleProductClick = (product) => {
+    setSelectedProduct(product);
+    window.scrollTo(0, 0);
+  };
+
+  // If a product is selected, show the detail page
+  if (selectedProduct) {
+    return <ProductDetailPage setActivePage={setActivePage} product={selectedProduct} />;
+  }
 
   return (
     <div style={{ paddingTop: 72 }}>
@@ -61,7 +74,12 @@ export const ProductsPage = ({ setActivePage }) => {
               </motion.button>
             ))}
           </motion.div>
-          <ProductsGrid setActivePage={setActivePage} products={filtered} limit={null} />
+          <ProductsGrid 
+            setActivePage={setActivePage} 
+            products={filtered} 
+            limit={null}
+            onProductClick={handleProductClick}  // Pass the click handler
+          />
         </div>
       </section>
     </div>

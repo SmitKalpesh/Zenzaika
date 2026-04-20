@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { COLORS } from "../../../data/constants";
 import { staggerContainer, fadeUp } from "../../../styles/animations";
 
-export const ProductsGrid = ({ setActivePage, products, limit = null }) => {
+export const ProductsGrid = ({ setActivePage, products, limit = null, onProductClick }) => {
   const [displayProducts, setDisplayProducts] = useState([]);
   
   useEffect(() => {
@@ -11,6 +11,13 @@ export const ProductsGrid = ({ setActivePage, products, limit = null }) => {
     const prods = limit ? products.slice(0, limit) : products;
     setDisplayProducts(prods);
   }, [products, limit]);
+  
+  // Handle product click
+  const handleProductClick = (product) => {
+    if (onProductClick) {
+      onProductClick(product);
+    }
+  };
   
   // If no products, show message
   if (!displayProducts || displayProducts.length === 0) {
@@ -33,10 +40,10 @@ export const ProductsGrid = ({ setActivePage, products, limit = null }) => {
   
   return (
     <motion.div
-      key={products.length + displayProducts[0]?.name} // Force re-render when products change
+      key={products.length + displayProducts[0]?.name}
       variants={staggerContainer}
       initial="hidden"
-      animate="visible" // Changed from whileInView to animate for immediate display
+      animate="visible"
       style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 28 }}
     >
       {displayProducts.map((product, index) => (
@@ -53,6 +60,7 @@ export const ProductsGrid = ({ setActivePage, products, limit = null }) => {
             border: "1px solid rgba(0,0,0,0.04)",
             cursor: "pointer",
           }}
+          onClick={() => handleProductClick(product)}
         >
           <motion.div
             whileHover={{ scale: 1.05 }}
@@ -83,7 +91,14 @@ export const ProductsGrid = ({ setActivePage, products, limit = null }) => {
               <span style={{ fontSize: 11, color: COLORS.primaryRed, fontWeight: 500, background: `${COLORS.primaryRed}08`, padding: "3px 10px", borderRadius: 50 }}>
                 100% Natural
               </span>
-              <motion.span whileHover={{ x: 5 }} style={{ fontSize: 13, color: COLORS.primaryRed, fontWeight: 500, cursor: "pointer" }}>
+              <motion.span 
+                whileHover={{ x: 5 }} 
+                style={{ fontSize: 13, color: COLORS.primaryRed, fontWeight: 500, cursor: "pointer" }}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleProductClick(product);
+                }}
+              >
                 Details →
               </motion.span>
             </div>

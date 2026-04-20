@@ -7,11 +7,19 @@ import { Footer } from "./assets/components/common/Footer";
 import { BackToTop } from "./assets/components/common/BackToTop";
 import "./styles/globals.css";
 
-// Lazy load all pages
-const HomePage = lazy(() => import("./assets/Pages/HomePage"));
-const ProductsPage = lazy(() => import("./assets/Pages/ProductsPage"));
-const AboutPage = lazy(() => import("./assets/Pages/AboutPage"));
-const ContactPage = lazy(() => import("./assets/Pages/ContactPage"));
+// Correct lazy loading for named exports - using the .then() pattern
+const HomePage = lazy(() => 
+  import("./assets/Pages/HomePage").then(module => ({ default: module.HomePage }))
+);
+const ProductsPage = lazy(() => 
+  import("./assets/Pages/ProductsPage").then(module => ({ default: module.ProductsPage }))
+);
+const AboutPage = lazy(() => 
+  import("./assets/Pages/AboutPage").then(module => ({ default: module.AboutPage }))
+);
+const ContactPage = lazy(() => 
+  import("./assets/Pages/ContactPage").then(module => ({ default: module.ContactPage }))
+);
 
 // Simple loading component
 const LoadingFallback = () => (
@@ -19,16 +27,21 @@ const LoadingFallback = () => (
     display: "flex", 
     justifyContent: "center", 
     alignItems: "center", 
-    minHeight: "50vh" 
+    minHeight: "50vh",
+    flexDirection: "column",
+    gap: "15px"
   }}>
     <div style={{
-      width: 40,
-      height: 40,
+      width: 45,
+      height: 45,
       border: `3px solid #C0392B20`,
       borderTop: `3px solid #C0392B`,
       borderRadius: "50%",
       animation: "spin 0.8s linear infinite"
     }} />
+    <div className="playfair" style={{ fontSize: 14, color: "#7F8C8D" }}>
+      Loading...
+    </div>
     <style>{`
       @keyframes spin {
         to { transform: rotate(360deg); }
