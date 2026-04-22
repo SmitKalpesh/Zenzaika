@@ -1,0 +1,1538 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sabji Masala",
+      "category": "Blended Masalas",
+      "desc": "A well-rounded blend of everyday spices that delivers warmth, mild heat, and a rich, comforting taste to all kinds of vegetable dishes.",
+      "image": "/src/assets/images/sabji-masala.webp",
+      "bg": "#FFF5F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 156,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A well-rounded blend of everyday spices that delivers warmth, mild heat, and a rich, comforting taste to all kinds of vegetable dishes. Carefully ground and packed to retain natural oils and aroma.",
+        "packaging": "Sealed in airtight packaging to lock in freshness and maintain consistent quality from the first use to the last.",
+        "hygiene": "No added artificial colors or fillers — just clean, honest spices you can rely on for daily cooking.",
+        "elevateCooking": "Perfect for dry and gravy-based sabjis, from quick weekday meals to elaborate home-style preparations."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Garam Masala",
+      "category": "Blended Masalas",
+      "desc": "A rich and aromatic blend of traditional whole spices that adds warmth, depth, and a slightly bold finish to a variety of Indian dishes.",
+      "image": "/src/assets/images/garam-masala.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 312,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A rich and aromatic blend of traditional whole spices that adds warmth, depth, and a slightly bold finish to a variety of Indian dishes. Carefully ground to preserve the natural oils of spices.",
+        "packaging": "Sealed in airtight packaging to lock in freshness and maintain consistent quality from the first use to the last.",
+        "hygiene": "No added artificial colors or fillers — only clean, high-quality spices you can rely on.",
+        "elevateCooking": "Ideal for curries, dals, and gravies, as well as for finishing dishes with an extra layer of flavor."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Chhole Masala",
+      "category": "Blended Masalas",
+      "desc": "A bold and tangy blend crafted to bring out the authentic taste of chhole, combining spice, warmth, and a hint of tanginess.",
+      "image": "/src/assets/images/chhole-masala.webp",
+      "bg": "#FFF4E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 203,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold and tangy blend crafted to bring out the authentic taste of chhole, combining spice, warmth, and a hint of tanginess. Ground and packed to retain its strong and inviting aroma.",
+        "packaging": "Airtight sealed packaging ensures long-lasting freshness and consistent taste.",
+        "hygiene": "Made without artificial colors or additives — just pure and carefully selected spices.",
+        "elevateCooking": "Perfect for chickpea curries and North Indian gravies, delivering a homely yet flavorful experience."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Pav Bhaji Masala",
+      "category": "Blended Masalas",
+      "desc": "A vibrant blend that delivers the classic street-style pav bhaji taste, combining tangy, spicy, and buttery notes in perfect balance.",
+      "image": "/src/assets/images/pav-bhaji-masala.webp",
+      "bg": "#FFF2E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 287,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A vibrant blend that delivers the classic street-style pav bhaji taste, combining tangy, spicy, and buttery notes. Carefully processed to retain a bold and appetizing aroma.",
+        "packaging": "Sealed in airtight packaging to preserve freshness and flavor consistency.",
+        "hygiene": "No artificial colors or fillers — only quality spices blended to perfection.",
+        "elevateCooking": "Ideal for pav bhaji and mixed vegetable dishes, adding a rich and flavorful touch."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Shahi Biryani Masala",
+      "category": "Blended Masalas",
+      "desc": "A luxurious blend of aromatic spices designed to create rich, layered flavors in biryani, offering depth, warmth, and a royal taste.",
+      "image": "/src/assets/images/shahi-biryani-masala.webp",
+      "bg": "#FFF0E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 178,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A luxurious blend of aromatic spices designed to create rich, layered flavors in biryani, offering depth, warmth, and a royal taste. Carefully crafted to preserve the fragrance of whole spices.",
+        "packaging": "Packed in airtight packaging to retain freshness and ensure consistent quality.",
+        "hygiene": "Made with carefully selected spices without artificial additives.",
+        "elevateCooking": "Perfect for veg and non-veg biryanis, enhancing both flavor and aroma."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Kitchen King Masala",
+      "category": "Blended Masalas",
+      "desc": "A well-rounded all-purpose blend that adds mild spice, richness, and a smooth flavor to everyday dishes without overpowering their natural taste.",
+      "image": "/src/assets/images/kitchen-king-masala.webp",
+      "bg": "#FFF5EE",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 234,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A well-rounded all-purpose blend that adds mild spice, richness, and a smooth flavor to everyday dishes. Prepared to retain a subtle yet rich aroma.",
+        "packaging": "Sealed in airtight packaging to maintain freshness and consistency.",
+        "hygiene": "No artificial colors or fillers — just clean and reliable ingredients.",
+        "elevateCooking": "Perfect for sabjis, curries, and gravies, making daily cooking simple and flavorful."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Sambhar Masala",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A tangy and mildly spicy blend that brings out the authentic taste of traditional sambhar with a comforting depth of flavor.",
+      "image": "/src/assets/images/sambhar-masala.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 145,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A tangy and mildly spicy blend that brings out the authentic taste of traditional sambhar. Carefully ground to preserve the natural aroma of spices.",
+        "packaging": "Airtight sealed to lock in freshness and maintain quality.",
+        "hygiene": "No added artificial colors or fillers.",
+        "elevateCooking": "Ideal for sambhar and lentil-based dishes, enhancing everyday meals."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Pani Puri Masala",
+      "category": "Seasoning Blends",
+      "desc": "A zesty and refreshing blend that combines tanginess, spice, and a hint of sweetness, creating the perfect balance for pani puri.",
+      "image": "/src/assets/images/pani-puri-masala.webp",
+      "bg": "#FFF8F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 342,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A zesty and refreshing blend that combines tanginess, spice, and a hint of sweetness. Retains a sharp and lively aroma that enhances the freshness of every serving.",
+        "packaging": "Packed in airtight packaging to preserve flavor and quality.",
+        "hygiene": "Made with clean ingredients and no artificial additives.",
+        "elevateCooking": "Perfect for pani puri, chaats, and refreshing spiced drinks."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Seasoning Blends",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Jaljeera Powder",
+      "category": "Seasoning Blends",
+      "desc": "A tangy and refreshing blend with a hint of spice, designed to deliver a cooling and digestive experience.",
+      "image": "/src/assets/images/jaljeera-powder.webp",
+      "bg": "#FFF6F0",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 98,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A tangy and refreshing blend with a hint of spice, designed to deliver a cooling and digestive experience. Carefully processed to retain a crisp and invigorating aroma.",
+        "packaging": "Sealed in airtight packaging to maintain freshness and taste.",
+        "hygiene": "No artificial colors or additives.",
+        "elevateCooking": "Ideal for preparing jaljeera drinks and enhancing appetizers."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Seasoning Blends",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Tea Masala",
+      "category": "Blended Masalas",
+      "desc": "A warm and comforting blend of spices that adds depth and richness to everyday tea, creating a soothing and flavorful experience.",
+      "image": "/src/assets/images/tea-masala.webp",
+      "bg": "#FFF4EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 456,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A warm and comforting blend of spices that adds depth and richness to everyday tea. Ground to preserve the natural fragrance of spices.",
+        "packaging": "Packed in airtight packaging to retain freshness and potency.",
+        "hygiene": "Made without artificial flavors or additives.",
+        "elevateCooking": "Perfect for masala chai and herbal tea variations."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Rajma Masala",
+      "category": "Blended Masalas",
+      "desc": "A rich and hearty blend designed to bring out the depth and warmth of rajma dishes, offering a comforting and full-bodied taste.",
+      "image": "/src/assets/images/rajma-masala.webp",
+      "bg": "#FFF3E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 112,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A rich and hearty blend designed to bring out the depth and warmth of rajma dishes. Retains a strong and homely aroma that enhances the overall dish.",
+        "packaging": "Sealed in airtight packaging to preserve freshness.",
+        "hygiene": "No artificial colors or fillers.",
+        "elevateCooking": "Ideal for kidney bean curries and North Indian meals."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Shahi Paneer Masala",
+      "category": "Blended Masalas",
+      "desc": "A mild yet rich blend crafted to create creamy and flavorful paneer dishes with a subtle sweetness and balanced spice.",
+      "image": "/src/assets/images/shahi-paneer-masala.webp",
+      "bg": "#FFF5F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 167,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A mild yet rich blend crafted to create creamy and flavorful paneer dishes with a subtle sweetness and balanced spice. Maintains a soft and inviting aroma.",
+        "packaging": "Packed in airtight packaging to retain freshness.",
+        "hygiene": "No artificial additives or colors.",
+        "elevateCooking": "Perfect for shahi paneer and other creamy curries."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Fish Curry Masala",
+      "category": "Blended Masalas",
+      "desc": "A tangy and spicy blend designed to enhance the natural flavor of fish, delivering a well-rounded and authentic taste.",
+      "image": "/src/assets/images/fish-curry-masala.webp",
+      "bg": "#FFF2EC",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 78,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A tangy and spicy blend designed to enhance the natural flavor of fish. Carefully prepared to retain a bold and coastal-style aroma.",
+        "packaging": "Sealed in airtight packaging to maintain freshness and consistency.",
+        "hygiene": "Made with clean and natural spices only.",
+        "elevateCooking": "Ideal for fish curries and coastal-style dishes."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Meat Masala",
+      "category": "Blended Masalas",
+      "desc": "A strong and robust blend that adds depth and intensity to meat dishes, creating a rich and satisfying taste.",
+      "image": "/src/assets/images/meat-masala.webp",
+      "bg": "#FFF0E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 145,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A strong and robust blend that adds depth and intensity to meat dishes. Retains a deep and bold aroma that enhances slow-cooked recipes.",
+        "packaging": "Packed in airtight packaging to preserve freshness.",
+        "hygiene": "No artificial colors or fillers.",
+        "elevateCooking": "Perfect for mutton and other meat-based curries."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Chicken Masala",
+      "category": "Blended Masalas",
+      "desc": "A thoughtfully crafted blend of spices designed to bring out the rich and comforting flavors of chicken dishes with perfect balance.",
+      "image": "/src/assets/images/chicken-masala.webp",
+      "bg": "#FFF4EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 289,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A thoughtfully crafted blend of spices designed to bring out the rich and comforting flavors of chicken dishes. Carefully ground to preserve the natural oils of spices.",
+        "packaging": "Sealed in airtight packaging to lock in freshness and maintain consistent quality.",
+        "hygiene": "No added artificial colors or fillers — just clean, high-quality spices.",
+        "elevateCooking": "Perfect for a variety of chicken preparations, from simple home-style curries to richer gravies."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Egg Curry Masala",
+      "category": "Blended Masalas",
+      "desc": "A well-rounded blend created to complement egg-based dishes, delivering a mildly spiced and comforting taste with a smooth, rich finish.",
+      "image": "/src/assets/images/egg-curry-masala.webp",
+      "bg": "#FFF6F0",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 67,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A well-rounded blend created to complement egg-based dishes, delivering a mildly spiced and comforting taste. Prepared with care to retain the natural aroma of spices.",
+        "packaging": "Packed in airtight packaging to preserve freshness and ensure consistent quality.",
+        "hygiene": "Made without artificial colors or additives — only clean and reliable ingredients.",
+        "elevateCooking": "Ideal for egg curries and quick meals, adding flavor and richness to simple preparations."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Tandoori Chicken Masala",
+      "category": "Marinades",
+      "desc": "A bold yet balanced blend that captures the essence of traditional tandoori flavors, combining mild heat, tanginess, and subtle smokiness.",
+      "image": "/src/assets/images/tandoori-chicken-masala.webp",
+      "bg": "#FFF3E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 198,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold yet balanced blend that captures the essence of traditional tandoori flavors, combining mild heat, tanginess, and subtle smokiness. Carefully processed to retain a deep and smoky aroma.",
+        "packaging": "Sealed in airtight packaging to maintain freshness and flavor consistency.",
+        "hygiene": "No artificial colors or fillers — only high-quality spices blended with care.",
+        "elevateCooking": "Perfect for marination, grilling, and roasting, bringing authentic tandoori flavor to your kitchen."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Marinades",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Paneer Tikka Masala",
+      "category": "Marinades",
+      "desc": "A tangy and mildly spiced blend designed to create flavorful paneer tikka, offering a perfect balance of richness and light smokiness.",
+      "image": "/src/assets/images/paneer-tikka-masala.webp",
+      "bg": "#FFF5F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 134,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A tangy and mildly spiced blend designed to create flavorful paneer tikka, offering a perfect balance of richness and light smokiness. Retains a fresh and slightly smoky aroma.",
+        "packaging": "Packed in airtight packaging to preserve freshness and consistent quality.",
+        "hygiene": "Made with clean ingredients and no artificial additives.",
+        "elevateCooking": "Ideal for marinating paneer and preparing grilled or tandoori-style dishes with ease."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Marinades",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Chana Masala",
+      "category": "Blended Masalas",
+      "desc": "A bold and tangy blend crafted to enhance chickpea dishes with a rich and authentic taste, offering a perfect mix of spice and depth.",
+      "image": "/src/assets/images/chana-masala.webp",
+      "bg": "#FFF4E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 98,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold and tangy blend crafted to enhance chickpea dishes with a rich and authentic taste. Carefully ground to retain a strong and inviting aroma.",
+        "packaging": "Sealed in airtight packaging to lock in freshness and flavor.",
+        "hygiene": "No artificial colors or fillers — only quality spices.",
+        "elevateCooking": "Perfect for chana curries and North Indian dishes, delivering consistent flavor every time."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Chat Masala",
+      "category": "Seasoning Blends",
+      "desc": "A tangy and zesty blend that delivers a burst of flavor with the perfect balance of spice, sourness, and a hint of saltiness.",
+      "image": "/src/assets/images/chat-masala.webp",
+      "bg": "#FFF8F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 378,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A tangy and zesty blend that delivers a burst of flavor with the perfect balance of spice, sourness, and a hint of saltiness. Prepared to retain a sharp and lively aroma.",
+        "packaging": "Packed in airtight packaging to maintain quality and consistency.",
+        "hygiene": "Made with natural ingredients and no artificial additives.",
+        "elevateCooking": "Perfect for chaats, fruits, and snacks, adding an instant flavor boost."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Seasoning Blends",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Paneer Masala",
+      "category": "Blended Masalas",
+      "desc": "A rich and mildly spiced blend created to enhance paneer dishes with a smooth, creamy, and comforting taste.",
+      "image": "/src/assets/images/paneer-masala.webp",
+      "bg": "#FFF5F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 145,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A rich and mildly spiced blend created to enhance paneer dishes with a smooth, creamy, and comforting taste. Carefully prepared to retain a fresh and inviting aroma.",
+        "packaging": "Sealed in airtight packaging to preserve freshness and ensure consistent quality.",
+        "hygiene": "No artificial colors or fillers — only clean, high-quality ingredients.",
+        "elevateCooking": "Ideal for paneer curries and gravies, making everyday cooking simple and flavorful."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Butter Chicken Masala",
+      "category": "Blended Masalas",
+      "desc": "A carefully balanced blend designed to recreate the classic butter chicken taste, combining mild spice, subtle sweetness, and rich depth.",
+      "image": "/src/assets/images/butter-chicken-masala.webp",
+      "bg": "#FFF4EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 267,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A carefully balanced blend designed to recreate the classic butter chicken taste, combining mild spice, subtle sweetness, and rich depth. Blended to retain the natural aroma of spices.",
+        "packaging": "Sealed in airtight packaging to lock in freshness and maintain consistent quality.",
+        "hygiene": "Made with clean, high-quality spices without artificial colors or additives.",
+        "elevateCooking": "Perfect for preparing butter chicken and other creamy gravies with ease and consistency."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Dry Ginger Powder",
+      "category": "Everyday Essentials",
+      "desc": "A finely ground powder that delivers a mildly pungent and warm taste, adding depth to both traditional and everyday recipes.",
+      "image": "/src/assets/images/dry-ginger-powder.webp",
+      "bg": "#FFF8F2",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 87,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A finely ground powder that delivers a mildly pungent and warm taste, adding depth to both traditional and everyday recipes. Carefully processed to retain its natural strength and aromatic warmth.",
+        "packaging": "Packed in airtight packaging to preserve freshness and potency.",
+        "hygiene": "No artificial additives — only pure and natural ginger.",
+        "elevateCooking": "Ideal for cooking, baking, and traditional preparations that require a warm spice note."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Everyday Essentials",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Chicken 65 Masala",
+      "category": "Marinades",
+      "desc": "A vibrant blend that delivers the signature spicy and tangy taste of Chicken 65, coating every bite with rich and bold flavor.",
+      "image": "/src/assets/images/chicken-65-masala.webp",
+      "bg": "#FFF3E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 112,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A vibrant blend that delivers the signature spicy and tangy taste of Chicken 65. Prepared to retain a strong and appetizing aroma that enhances fried and snack-style dishes.",
+        "packaging": "Sealed in airtight packaging for consistent freshness.",
+        "hygiene": "Made without artificial colors or fillers.",
+        "elevateCooking": "Perfect for preparing Chicken 65 and other spicy snack recipes."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Marinades",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Hyderabadi Biryani Masala",
+      "category": "Blended Masalas",
+      "desc": "A rich blend inspired by traditional Hyderabadi recipes, delivering deep, layered flavors with a perfect balance of spice and aroma.",
+      "image": "/src/assets/images/hyderabadi-biryani-masala.webp",
+      "bg": "#FFF0E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 189,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A rich blend inspired by traditional Hyderabadi recipes, delivering deep, layered flavors with a perfect balance of spice and aroma. Carefully crafted to preserve the fragrance of whole spices.",
+        "packaging": "Packed in airtight packaging to maintain freshness and quality.",
+        "hygiene": "Made with premium spices and no artificial additives.",
+        "elevateCooking": "Ideal for biryani preparations that require authentic flavor and aroma."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Goda Masala",
+      "category": "Blended Masalas",
+      "desc": "A traditional Maharashtrian blend offering a subtle sweetness and warm, earthy taste that enhances everyday dishes.",
+      "image": "/src/assets/images/goda-masala.webp",
+      "bg": "#FFF6F0",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 67,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A traditional Maharashtrian blend offering a subtle sweetness and warm, earthy taste that enhances everyday dishes. Retains a gentle and comforting aroma.",
+        "packaging": "Sealed in airtight packaging to preserve freshness.",
+        "hygiene": "No artificial colors or fillers — only authentic ingredients.",
+        "elevateCooking": "Perfect for traditional Maharashtrian recipes and daily meals."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Haldi Powder",
+      "category": "Everyday Essentials",
+      "desc": "A vibrant turmeric powder that adds a warm, earthy flavor along with a rich natural color to dishes.",
+      "image": "/src/assets/images/haldi-powder.webp",
+      "bg": "#FFFAF2",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 234,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A vibrant turmeric powder that adds a warm, earthy flavor along with a rich natural color to dishes. Carefully processed to retain its natural aroma and potency.",
+        "packaging": "Packed in airtight packaging to maintain purity and freshness.",
+        "hygiene": "Made from high-quality turmeric with no additives.",
+        "elevateCooking": "Ideal for everyday cooking, enhancing both flavor and color."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Everyday Essentials",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Royal Garam Masala",
+      "category": "Blended Masalas",
+      "desc": "A refined blend of premium spices offering a deeper and more intense flavor with a lingering warmth.",
+      "image": "/src/assets/images/royal-garam-masala.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 145,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A refined blend of premium spices offering a deeper and more intense flavor with a lingering warmth. Prepared to preserve a strong and luxurious aroma.",
+        "packaging": "Sealed in airtight packaging to retain freshness.",
+        "hygiene": "Made with carefully selected spices without additives.",
+        "elevateCooking": "Perfect for elevating both simple and elaborate dishes."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Chaas Masala",
+      "category": "Seasoning Blends",
+      "desc": "A tangy and mildly spiced blend that transforms simple buttermilk into a refreshing and flavorful drink.",
+      "image": "/src/assets/images/chaas-masala.webp",
+      "bg": "#FFF8F0",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 89,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A tangy and mildly spiced blend that transforms simple buttermilk into a refreshing and flavorful drink. Maintains a fresh and lively aroma that enhances its cooling effect.",
+        "packaging": "Packed in airtight packaging to preserve freshness.",
+        "hygiene": "Made with clean ingredients and no artificial additives.",
+        "elevateCooking": "Ideal for chaas, drinks, and light refreshments."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Seasoning Blends",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Baingan Bharta Masala",
+      "category": "Blended Masalas",
+      "desc": "A balanced blend that enhances the natural smoky taste of roasted eggplant with added depth and warmth.",
+      "image": "/src/assets/images/baingan-bharta-masala.webp",
+      "bg": "#FFF5EE",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 54,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A balanced blend that enhances the natural smoky taste of roasted eggplant with added depth and warmth. Retains a rich and roasted aroma that complements traditional cooking.",
+        "packaging": "Sealed in airtight packaging for consistent quality.",
+        "hygiene": "No artificial colors or fillers.",
+        "elevateCooking": "Perfect for baingan bharta and similar dishes."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Biryani Pulao Masala",
+      "category": "Blended Masalas",
+      "desc": "A versatile blend that adds fragrance and richness to both biryani and pulao, enhancing every grain of rice.",
+      "image": "/src/assets/images/biryani-pulao-masala.webp",
+      "bg": "#FFF2E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 112,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A versatile blend that adds fragrance and richness to both biryani and pulao, enhancing every grain of rice. Carefully crafted to retain a deep and inviting aroma.",
+        "packaging": "Packed in airtight packaging to preserve freshness.",
+        "hygiene": "Made with quality spices and no additives.",
+        "elevateCooking": "Ideal for rice-based dishes and festive meals."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Tandoori BBQ Masala",
+      "category": "Marinades",
+      "desc": "A bold blend that brings together smoky, tangy, and mildly spicy notes for authentic BBQ-style taste.",
+      "image": "/src/assets/images/tandoori-bbq-masala.webp",
+      "bg": "#FFF3E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 156,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold blend that brings together smoky, tangy, and mildly spicy notes for authentic BBQ-style taste. Maintains a rich and grilled-style aroma.",
+        "packaging": "Sealed in airtight packaging to retain flavor.",
+        "hygiene": "No artificial additives.",
+        "elevateCooking": "Perfect for grilling, roasting, and marination."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Marinades",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Karahi Chicken Masala",
+      "category": "Blended Masalas",
+      "desc": "A rich blend designed to deliver the signature taste of karahi-style chicken with balanced spice and slight tanginess.",
+      "image": "/src/assets/images/karahi-chicken-masala.webp",
+      "bg": "#FFF4EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 134,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A rich blend designed to deliver the signature taste of karahi-style chicken with balanced spice and slight tanginess. Prepared to retain a strong and appetizing aroma.",
+        "packaging": "Packed in airtight packaging for freshness.",
+        "hygiene": "Made with clean ingredients only.",
+        "elevateCooking": "Perfect for traditional karahi preparations."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Coriander Powder",
+      "category": "Everyday Essentials",
+      "desc": "A finely ground spice offering a subtle citrusy and earthy flavor that balances and enhances a wide range of dishes.",
+      "image": "/src/assets/images/coriander-powder.webp",
+      "bg": "#F0F7E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 178,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A finely ground spice offering a subtle citrusy and earthy flavor that balances and enhances a wide range of dishes. Carefully processed to retain a fresh and natural aroma.",
+        "packaging": "Packed in airtight packaging for consistent freshness.",
+        "hygiene": "No additives — only pure coriander.",
+        "elevateCooking": "Perfect for everyday cooking and spice blends."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Everyday Essentials",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Red Chilli Powder",
+      "category": "Everyday Essentials",
+      "desc": "A bold spice that adds both color and heat, delivering a balanced level of spice to enhance dishes.",
+      "image": "/src/assets/images/red-chilli-powder.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 289,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold spice that adds both color and heat, delivering a balanced level of spice to enhance dishes. Maintains a strong and fresh aroma.",
+        "packaging": "Sealed in airtight packaging.",
+        "hygiene": "No artificial colors or fillers.",
+        "elevateCooking": "Essential for daily cooking across a variety of cuisines."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Everyday Essentials",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Dal Makhani Masala",
+      "category": "Blended Masalas",
+      "desc": "A rich blend that enhances slow-cooked lentils with depth, warmth, and a smooth, comforting taste.",
+      "image": "/src/assets/images/dal-makhani-masala.webp",
+      "bg": "#FFF5F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 123,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A rich blend that enhances slow-cooked lentils with depth, warmth, and a smooth, comforting taste. Maintains a rich and homely aroma.",
+        "packaging": "Sealed to preserve freshness.",
+        "hygiene": "No artificial additives.",
+        "elevateCooking": "Ideal for dal makhani and lentil-based dishes."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Sindhi Biryani Masala",
+      "category": "Blended Masalas",
+      "desc": "A distinctive blend offering a slightly tangy and richly spiced profile inspired by traditional Sindhi biryani.",
+      "image": "/src/assets/images/sindhi-biryani-masala.webp",
+      "bg": "#FFF0E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 98,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A distinctive blend offering a slightly tangy and richly spiced profile inspired by traditional Sindhi biryani. Retains a deep and vibrant aroma.",
+        "packaging": "Packed in airtight packaging.",
+        "hygiene": "Made with natural ingredients.",
+        "elevateCooking": "Perfect for biryani with a bold flavor profile."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Karahi Gosht Masala",
+      "category": "Blended Masalas",
+      "desc": "A strong and balanced blend that enhances meat dishes with depth, spice, and a rich traditional taste.",
+      "image": "/src/assets/images/karahi-gosht-masala.webp",
+      "bg": "#FFF2EC",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 87,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A strong and balanced blend that enhances meat dishes with depth, spice, and a rich traditional taste. Maintains a bold and intense aroma.",
+        "packaging": "Sealed in airtight packaging.",
+        "hygiene": "No artificial colors or fillers.",
+        "elevateCooking": "Perfect for karahi-style meat dishes."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Madras Curry Powder",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A vibrant blend delivering a slightly spicy and aromatic taste, perfect for traditional curry preparations.",
+      "image": "/src/assets/images/madras-curry-powder.webp",
+      "bg": "#FFF4EC",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 76,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A vibrant blend delivering a slightly spicy and aromatic taste, perfect for traditional curry preparations. Retains a rich and comforting aroma.",
+        "packaging": "Packed in airtight packaging.",
+        "hygiene": "Made with clean and natural spices.",
+        "elevateCooking": "Ideal for curries and everyday cooking."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Coconut Red Chutney",
+      "category": "Chutneys",
+      "desc": "A bold and well-balanced blend that brings together the richness of coconut with the warmth of red chilies.",
+      "image": "/src/assets/images/coconut-red-chutney.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 145,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold and well-balanced blend that brings together the richness of coconut with the warmth of red chilies. Carefully prepared to preserve the natural aroma of roasted spices and coconut.",
+        "packaging": "Sealed in airtight packaging to retain freshness, flavor, and consistency.",
+        "hygiene": "Made without any artificial colors or additives — just a clean blend of quality ingredients.",
+        "elevateCooking": "Perfect as a side with idli, dosa, and vada, while also pairing well with snacks and light meals."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Coconut Green Chutney",
+      "category": "Chutneys",
+      "desc": "A refreshing blend that combines coconut with green herbs and mild spices, offering a light yet flavorful taste.",
+      "image": "/src/assets/images/coconut-green-chutney.webp",
+      "bg": "#F0F7E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 112,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A refreshing blend that combines coconut with green herbs and mild spices, offering a light yet flavorful taste with a gentle hint of zest. Crafted to retain the natural freshness of herbs.",
+        "packaging": "Packed in airtight packaging to maintain freshness, texture, and consistent quality.",
+        "hygiene": "No artificial colors or fillers — only carefully selected ingredients for a natural taste.",
+        "elevateCooking": "Ideal for idli, dosa, sandwiches, and snacks, adding a fresh and flavorful touch to everyday meals."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Vada Pav Chutney",
+      "category": "Chutneys",
+      "desc": "A strong and spicy blend with a hint of garlic, delivering the authentic taste of classic vada pav chutney.",
+      "image": "/src/assets/images/vada-pav-chutney.webp",
+      "bg": "#FFF4E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 267,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A strong and spicy blend with a hint of garlic, delivering the authentic taste of classic vada pav chutney with just the right level of heat and depth. Retains its intense and flavorful aroma.",
+        "packaging": "Sealed securely to preserve freshness and ensure consistent flavor in every serving.",
+        "hygiene": "Free from artificial colors and additives — made with simple, quality ingredients.",
+        "elevateCooking": "Perfect for vada pav, sandwiches, and street-style snacks, adding a bold kick to every bite."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Lasoon Chutney",
+      "category": "Chutneys",
+      "desc": "A fiery blend centered around garlic, offering a bold, intense taste with a sharp and satisfying heat.",
+      "image": "/src/assets/images/lasoon-chutney.webp",
+      "bg": "#FFF2E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 98,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A fiery blend centered around garlic, offering a bold, intense taste with a sharp and satisfying heat. Carefully prepared to retain the natural pungency and richness of garlic.",
+        "packaging": "Packed in airtight packaging to lock in freshness and maintain consistency.",
+        "hygiene": "No artificial colors or fillers — just a pure and authentic spice blend.",
+        "elevateCooking": "Pairs perfectly with bhakri, vada pav, and traditional meals, adding a spicy punch wherever needed."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Imli Chutney",
+      "category": "Chutneys",
+      "desc": "A well-balanced blend of tamarind with a gentle sweetness, delivering a rich, tangy taste that enhances a variety of snacks.",
+      "image": "/src/assets/images/imli-chutney.webp",
+      "bg": "#FFF6F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 203,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A well-balanced blend of tamarind with a gentle sweetness, delivering a rich, tangy taste that enhances a variety of snacks. Maintains a naturally rich and tangy aroma.",
+        "packaging": "Sealed in airtight packaging to preserve freshness and flavor over time.",
+        "hygiene": "Made with clean ingredients, without any artificial additives.",
+        "elevateCooking": "Perfect for chaats, pani puri, and snacks, adding a sweet and tangy layer of flavor."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Sandwich Chutney",
+      "category": "Chutneys",
+      "desc": "A vibrant blend of herbs and spices that delivers a refreshing, slightly tangy taste, ideal for enhancing everyday snacks.",
+      "image": "/src/assets/images/sandwich-chutney.webp",
+      "bg": "#F0F7E8",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 134,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A vibrant blend of herbs and spices that delivers a refreshing, slightly tangy taste, ideal for enhancing everyday snacks. Carefully crafted to retain the natural freshness of herbs.",
+        "packaging": "Packed in airtight packaging to maintain freshness and consistency.",
+        "hygiene": "No artificial colors or additives — just a clean and flavorful blend.",
+        "elevateCooking": "Perfect for sandwiches, wraps, and snacks, adding a fresh and flavorful touch to every bite."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Madras Sambar Mix Powder",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A carefully balanced blend of spices crafted to deliver the authentic tangy and mildly spicy taste of classic Madras-style sambar.",
+      "image": "/src/assets/images/madras-sambar-mix-powder.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.8,
+      "reviews": 98,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A carefully balanced blend of spices crafted to deliver the authentic tangy and mildly spicy taste of classic Madras-style sambar. Prepared to retain the natural aroma of roasted spices.",
+        "packaging": "Sealed in airtight packaging to lock in freshness and maintain consistent quality over time.",
+        "hygiene": "No added artificial colors or fillers — only clean, high-quality spices.",
+        "elevateCooking": "Perfect for preparing sambar and enhancing lentil-based dishes with authentic South Indian flavors."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Rasam Powder",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A delicate yet flavorful blend that delivers a tangy and peppery taste, ideal for light and comforting meals.",
+      "image": "/src/assets/images/rasam-powder.webp",
+      "bg": "#FFF4EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 156,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A delicate yet flavorful blend that delivers a tangy and peppery taste, ideal for light and comforting meals. Carefully ground to preserve the natural aroma of spices.",
+        "packaging": "Packed in airtight packaging to retain freshness and flavor consistency.",
+        "hygiene": "Made without artificial colors or additives — just clean, natural ingredients.",
+        "elevateCooking": "Perfect for rasam, soups, and light meals that require warmth and flavor."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Tomato Rice Powder",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A well-rounded mix that brings together the tanginess of tomato with mild spices, creating a rich and satisfying flavor for quick meals.",
+      "image": "/src/assets/images/tomato-rice-powder.webp",
+      "bg": "#FFF5F0",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 67,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A well-rounded mix that brings together the tanginess of tomato with mild spices, creating a rich and satisfying flavor for quick meals. Maintains a fresh, slightly tangy aroma.",
+        "packaging": "Sealed in airtight packaging to preserve freshness and quality.",
+        "hygiene": "No artificial colors or fillers — only quality ingredients.",
+        "elevateCooking": "Ideal for preparing tomato rice quickly while maintaining authentic taste."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Curry Leaves Rice Powder",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A flavorful blend enriched with the natural essence of curry leaves, delivering a mild, earthy taste with a subtle spice.",
+      "image": "/src/assets/images/curry-leaves-rice-powder.webp",
+      "bg": "#F0F7E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 54,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A flavorful blend enriched with the natural essence of curry leaves, delivering a mild, earthy taste with a subtle spice. Carefully processed to retain the fresh and distinct aroma of curry leaves.",
+        "packaging": "Sealed in airtight packaging to ensure long-lasting freshness.",
+        "hygiene": "No artificial colors or additives — only natural ingredients.",
+        "elevateCooking": "Perfect for mixing with rice to create quick, wholesome meals with authentic flavor."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Paruppu Podi Dal Rice Powder",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A balanced mix of lentils and spices that delivers a comforting, mildly spiced taste with a rich and satisfying texture.",
+      "image": "/src/assets/images/paruppu-podi-dal-rice-powder.webp",
+      "bg": "#FFF6F0",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 78,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A balanced mix of lentils and spices that delivers a comforting, mildly spiced taste with a rich and satisfying texture. Retains a warm, roasted aroma that enhances simple home-style meals.",
+        "packaging": "Packed in airtight packaging to maintain freshness and consistency.",
+        "hygiene": "Made without artificial colors or fillers — just clean, wholesome ingredients.",
+        "elevateCooking": "Best enjoyed with rice and ghee for a quick, nourishing meal."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 51,
+      "name": "Madras Sambar Powder",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A traditional spice blend that delivers the familiar taste of everyday sambar with a perfect balance of tanginess and spice.",
+      "image": "/src/assets/images/madras-sambar-powder.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 167,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A traditional spice blend that delivers the familiar taste of everyday sambar with a perfect balance of tanginess and spice. Carefully prepared to preserve a rich and comforting aroma.",
+        "packaging": "Sealed in airtight packaging to retain freshness and quality.",
+        "hygiene": "No artificial colors or additives — only carefully selected spices.",
+        "elevateCooking": "Ideal for preparing sambar and other lentil-based dishes with consistent taste."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Curd Chilli",
+      "category": "Chutneys",
+      "desc": "A bold and distinctive blend offering a unique combination of heat and tanginess, adding character to simple meals.",
+      "image": "/src/assets/images/curd-chilli.webp",
+      "bg": "#FFF4E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.5,
+      "reviews": 45,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold and distinctive blend offering a unique combination of heat and tanginess, adding character to simple meals. Delivers a sharp and spicy aroma that enhances appetite and flavor.",
+        "packaging": "Packed in airtight packaging to preserve freshness and texture.",
+        "hygiene": "Made without artificial colors or additives.",
+        "elevateCooking": "Perfect as a side accompaniment or to add a spicy kick to everyday meals."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 53,
+      "name": "Drumstick Leaves Idli Podi",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A wholesome mix enriched with drumstick leaves, offering a balanced taste with mild spice and earthy undertones.",
+      "image": "/src/assets/images/drumstick-leaves-idli-podi.webp",
+      "bg": "#F0F7E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 34,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A wholesome mix enriched with drumstick leaves, offering a balanced taste with mild spice and earthy undertones. Carefully processed to retain a roasted and natural aroma.",
+        "packaging": "Sealed in airtight packaging to maintain freshness and quality.",
+        "hygiene": "No artificial colors or fillers — only natural ingredients.",
+        "elevateCooking": "Perfect for idli, dosa, and rice, adding both nutrition and flavor."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 54,
+      "name": "Black Pepper Idli Podi",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A bold blend centered around black pepper, delivering a strong and warming heat for those who enjoy intense flavors.",
+      "image": "/src/assets/images/black-pepper-idli-podi.webp",
+      "bg": "#FFF3EC",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 56,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A bold blend centered around black pepper, delivering a strong and warming heat for those who enjoy intense flavors. Retains a strong and spicy aroma that enhances every serving.",
+        "packaging": "Packed in airtight packaging to preserve freshness and potency.",
+        "hygiene": "Made with clean ingredients and no artificial additives.",
+        "elevateCooking": "Perfect for idli, dosa, and snacks that need an extra kick of spice."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 55,
+      "name": "Curry Leaves Idli Podi",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A flavorful blend enriched with curry leaves, offering a mild, earthy taste with a gentle hint of spice.",
+      "image": "/src/assets/images/curry-leaves-idli-podi.webp",
+      "bg": "#F0F7E8",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.6,
+      "reviews": 43,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A flavorful blend enriched with curry leaves, offering a mild, earthy taste with a gentle hint of spice. Maintains the natural aroma of curry leaves for a fresh and authentic experience.",
+        "packaging": "Sealed in airtight packaging to retain freshness and consistency.",
+        "hygiene": "No artificial colors or additives — only natural ingredients.",
+        "elevateCooking": "Ideal for idli, dosa, and rice, adding a unique and comforting flavor."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 56,
+      "name": "Til Chutney Ellu Podi",
+      "category": "Chutneys",
+      "desc": "A sesame-based blend that delivers a deep, roasted taste with a smooth and satisfying texture.",
+      "image": "/src/assets/images/til-chutney-ellu-podi.webp",
+      "bg": "#FFF6F0",
+      "inStock": true,
+      "isFeatured": false,
+      "rating": 4.7,
+      "reviews": 62,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A sesame-based blend that delivers a deep, roasted taste with a smooth and satisfying texture. Carefully prepared to retain the warm and nutty aroma of sesame seeds.",
+        "packaging": "Packed in airtight packaging to maintain freshness and quality.",
+        "hygiene": "No artificial colors or fillers — just clean, quality ingredients.",
+        "elevateCooking": "Perfect for rice and traditional meals, adding richness and depth."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Chutneys",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 57,
+      "name": "Lemon Rice Mix",
+      "category": "Ready-to-Use Mixes",
+      "desc": "A zesty blend that combines citrusy notes with mild spices, creating a bright and refreshing taste for quick meals.",
+      "image": "/src/assets/images/lemon-rice-mix.webp",
+      "bg": "#FFF8F0",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.7,
+      "reviews": 123,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A zesty blend that combines citrusy notes with mild spices, creating a bright and refreshing taste for quick meals. Maintains a fresh and citrusy aroma that enhances the overall experience.",
+        "packaging": "Sealed in airtight packaging to preserve freshness and flavor consistency.",
+        "hygiene": "Made with clean ingredients and no artificial additives.",
+        "elevateCooking": "Ideal for preparing lemon rice quickly while delivering consistent and authentic flavor."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Ready-to-Use Mixes",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 58,
+      "name": "Chicken Biryani Masala",
+      "category": "Blended Masalas",
+      "desc": "A layered and aromatic blend designed to bring out the authentic taste of chicken biryani, offering richness, warmth, and depth in every bite.",
+      "image": "/src/assets/images/chicken-biryani-masala.webp",
+      "bg": "#FFF4EC",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.9,
+      "reviews": 234,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "A layered and aromatic blend designed to bring out the authentic taste of chicken biryani, offering richness, warmth, and depth. Carefully ground to preserve the fragrance of whole spices.",
+        "packaging": "Packed in airtight packaging to lock in freshness and maintain consistent quality.",
+        "hygiene": "Made with carefully selected spices without artificial additives.",
+        "elevateCooking": "Perfect for chicken biryani and other rice-based dishes, ensuring authentic flavor every time."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Blended Masalas",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    },
+    {
+      "id": 59,
+      "name": "Cumin Powder",
+      "category": "Everyday Essentials",
+      "desc": "Warm and nutty, sourced from the finest cumin seeds for that authentic earthy flavour.",
+      "image": "/src/assets/images/cumin-powder.webp",
+      "bg": "#FFF8F2",
+      "inStock": true,
+      "isFeatured": true,
+      "rating": 4.8,
+      "reviews": 189,
+      "productInfo": {
+        "availableSizes": ["50 gram", "100 gram"],
+        "richColorAroma": "Premium cumin seeds ground to perfection with a warm, nutty aroma.",
+        "packaging": "Freshness-sealed packaging to retain natural oils and flavour.",
+        "hygiene": "100% pure, no fillers or artificial additives.",
+        "elevateCooking": "A staple for dals, curries, rice dishes, and spice blends."
+      },
+      "additionalInfo": {
+        "productSizes": "50 gram, 100 gram",
+        "category": "Everyday Essentials",
+        "storage": "Store in a cool, dry place away from direct sunlight",
+        "shelfLife": "12 months from manufacturing date",
+        "certification": "FSSAI Certified, 100% Natural"
+      }
+    }
+  ]
+}

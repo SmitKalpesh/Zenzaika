@@ -52,6 +52,7 @@ const LoadingFallback = () => (
 
 function App() {
   const [activePage, setActivePage] = useState("Home");
+  const [selectedCategory, setSelectedCategory] = useState(null);  // ← ADD THIS
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -62,8 +63,8 @@ function App() {
   }, [activePage]);
 
   const pages = {
-    Home: <HomePage setActivePage={setActivePage} />,
-    Products: <ProductsPage setActivePage={setActivePage} />,
+    Home: <HomePage setActivePage={setActivePage} setSelectedCategory={setSelectedCategory} />,  // ← ADD HERE
+    Products: <ProductsPage setActivePage={setActivePage} selectedCategory={selectedCategory} />,  // ← ADD HERE
     About: <AboutPage setActivePage={setActivePage} />,
     Contact: <ContactPage setActivePage={setActivePage} />,
   };

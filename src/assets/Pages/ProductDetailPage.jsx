@@ -1,7 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { COLORS } from "../../data/constants";
-import { PRODUCTS } from "../../data/products";
 
 export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) => {
   const [activeTab, setActiveTab] = useState("description");
@@ -23,6 +22,22 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
     } else {
       setActivePage("Products");
     }
+  };
+
+  const productInfo = product.productInfo || {
+    availableSizes: ["50 gram", "100 gram", "250 gram"],
+    richColorAroma: "Our product is a delightful medley of premium spices.",
+    packaging: "Available in convenient and airtight packaging to preserve freshness.",
+    hygiene: "No Artificial colors are added.",
+    elevateCooking: "Perfect for enhancing your daily cooking."
+  };
+
+  const additionalInfo = product.additionalInfo || {
+    productSizes: "50 gram, 100 gram, 250 gram",
+    category: product.category,
+    storage: "Store in a cool, dry place away from direct sunlight",
+    shelfLife: "12 months from manufacturing date",
+    certification: "FSSAI Certified, 100% Natural"
   };
 
   return (
@@ -59,9 +74,26 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
                 border: `1px solid ${COLORS.primaryRed}10`,
               }}
             >
-              <div style={{ fontSize: 200, marginBottom: 20 }}>
-                {product.emoji || "🫙"}
-              </div>
+              {product.image ? (
+                <img 
+                  src={product.image} 
+                  alt={product.name}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    maxWidth: "500px",
+                    maxHeight: "500px",
+                    objectFit: "contain",
+                    margin: "0 auto",
+                  }}
+                />
+              ) : (
+                <div style={{ fontSize: 200, marginBottom: 20 }}>
+                  {product.emoji || "🫙"}
+                </div>
+              )}
+              
+              {/* Tags */}
               <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 20 }}>
                 <span style={{
                   background: COLORS.primaryRed,
@@ -86,7 +118,7 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
               </div>
             </motion.div>
 
-            {/* Right Column - Product Info with Tabs */}
+            {/* Right Column - Product Info */}
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
@@ -96,33 +128,44 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
                 {product.name}
               </h1>
               
-              {/* Description */}
               <p style={{ fontSize: 15, color: COLORS.muted, lineHeight: 1.7, marginBottom: 30 }}>
-                {product.desc || "Indulge in the vibrant and robust flavors of our Authentic spice blend, meticulously crafted to capture the essence of traditional Indian cuisine. This aromatic masala brings together a symphony of spices, creating an irresistible blend that elevates your home-cooked dishes to culinary perfection."}
+                {product.desc}
               </p>
 
               {/* Tab Headers */}
               <div style={{ display: "flex", gap: 30, borderBottom: `1px solid ${COLORS.primaryRed}20`, marginBottom: 30 }}>
-                {["description", "additional"].map((tab) => (
-                  <button
-                    key={tab}
-                    onClick={() => setActiveTab(tab)}
-                    style={{
-                      background: "none",
-                      border: "none",
-                      padding: "12px 0",
-                      fontSize: 16,
-                      fontWeight: activeTab === tab ? 700 : 500,
-                      color: activeTab === tab ? COLORS.primaryRed : COLORS.muted,
-                      cursor: "pointer",
-                      borderBottom: activeTab === tab ? `2px solid ${COLORS.primaryRed}` : "none",
-                      transition: "all 0.3s ease"
-                    }}
-                  >
-                    {tab === "description" && "Description"}
-                    {tab === "additional" && "Additional information"}
-                  </button>
-                ))}
+                <button
+                  onClick={() => setActiveTab("description")}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    padding: "12px 0",
+                    fontSize: 16,
+                    fontWeight: activeTab === "description" ? 700 : 500,
+                    color: activeTab === "description" ? COLORS.primaryRed : COLORS.muted,
+                    cursor: "pointer",
+                    borderBottom: activeTab === "description" ? `2px solid ${COLORS.primaryRed}` : "none",
+                    transition: "all 0.3s ease"
+                  }}
+                >
+                  Description
+                </button>
+                <button
+                  onClick={() => setActiveTab("additional")}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    padding: "12px 0",
+                    fontSize: 16,
+                    fontWeight: activeTab === "additional" ? 700 : 500,
+                    color: activeTab === "additional" ? COLORS.primaryRed : COLORS.muted,
+                    cursor: "pointer",
+                    borderBottom: activeTab === "additional" ? `2px solid ${COLORS.primaryRed}` : "none",
+                    transition: "all 0.3s ease"
+                  }}
+                >
+                  Additional information
+                </button>
               </div>
 
               {/* Tab Content */}
@@ -139,19 +182,19 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
                     </h3>
                     <div>
                       <p style={{ fontSize: 14, color: COLORS.muted, lineHeight: 1.7, marginBottom: 15 }}>
-                        <strong style={{ color: COLORS.charcoal }}>Available Product Sizes:</strong> 50-gram, 100-gram
+                        <strong style={{ color: COLORS.charcoal }}>Available Product Sizes:</strong> {productInfo.availableSizes.join(', ')}
                       </p>
                       <p style={{ fontSize: 14, color: COLORS.muted, lineHeight: 1.7, marginBottom: 15 }}>
-                        <strong style={{ color: COLORS.charcoal }}>Rich Color and Aroma:</strong> Our {product.name} is a delightful medley of spices, including coriander, cumin, fennel, cloves, and more. This aromatic blend ensures a burst of flavor.
+                        <strong style={{ color: COLORS.charcoal }}>Rich Color and Aroma:</strong> {productInfo.richColorAroma}
                       </p>
                       <p style={{ fontSize: 14, color: COLORS.muted, lineHeight: 1.7, marginBottom: 15 }}>
-                        <strong style={{ color: COLORS.charcoal }}>Packaging:</strong> Available in convenient and airtight packaging to preserve freshness and flavor. Choose from various sizes to suit your culinary needs.
+                        <strong style={{ color: COLORS.charcoal }}>Packaging:</strong> {productInfo.packaging}
                       </p>
                       <p style={{ fontSize: 14, color: COLORS.muted, lineHeight: 1.7, marginBottom: 15 }}>
-                        <strong style={{ color: COLORS.charcoal }}>Hygiene:</strong> No Artificial colors are added.
+                        <strong style={{ color: COLORS.charcoal }}>Hygiene:</strong> {productInfo.hygiene}
                       </p>
                       <p style={{ fontSize: 14, color: COLORS.muted, lineHeight: 1.7, marginBottom: 15 }}>
-                        <strong style={{ color: COLORS.charcoal }}>Elevate Your Cooking Experience:</strong> Beyond traditional dishes, our masala is a versatile companion in the kitchen. Use it to enhance other vegetable dishes, lentils, or even as a seasoning.
+                        <strong style={{ color: COLORS.charcoal }}>Elevate Your Cooking Experience:</strong> {productInfo.elevateCooking}
                       </p>
                     </div>
                   </div>
@@ -163,23 +206,23 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
                       <tbody>
                         <tr style={{ borderBottom: `1px solid ${COLORS.primaryRed}10` }}>
                           <td style={{ padding: "12px 0", fontWeight: 600, color: COLORS.charcoal, width: "40%" }}>Product Sizes</td>
-                          <td style={{ padding: "12px 0", color: COLORS.muted }}>50 gram, 100 gram</td>
+                          <td style={{ padding: "12px 0", color: COLORS.muted }}>{additionalInfo.productSizes}</td>
                         </tr>
                         <tr style={{ borderBottom: `1px solid ${COLORS.primaryRed}10` }}>
                           <td style={{ padding: "12px 0", fontWeight: 600, color: COLORS.charcoal }}>Category</td>
-                          <td style={{ padding: "12px 0", color: COLORS.muted }}>{product.category}</td>
+                          <td style={{ padding: "12px 0", color: COLORS.muted }}>{additionalInfo.category}</td>
                         </tr>
                         <tr style={{ borderBottom: `1px solid ${COLORS.primaryRed}10` }}>
                           <td style={{ padding: "12px 0", fontWeight: 600, color: COLORS.charcoal }}>Storage</td>
-                          <td style={{ padding: "12px 0", color: COLORS.muted }}>Store in a cool, dry place away from direct sunlight</td>
+                          <td style={{ padding: "12px 0", color: COLORS.muted }}>{additionalInfo.storage}</td>
                         </tr>
                         <tr style={{ borderBottom: `1px solid ${COLORS.primaryRed}10` }}>
                           <td style={{ padding: "12px 0", fontWeight: 600, color: COLORS.charcoal }}>Shelf Life</td>
-                          <td style={{ padding: "12px 0", color: COLORS.muted }}>12 months from manufacturing date</td>
+                          <td style={{ padding: "12px 0", color: COLORS.muted }}>{additionalInfo.shelfLife}</td>
                         </tr>
                         <tr style={{ borderBottom: `1px solid ${COLORS.primaryRed}10` }}>
                           <td style={{ padding: "12px 0", fontWeight: 600, color: COLORS.charcoal }}>Certification</td>
-                          <td style={{ padding: "12px 0", color: COLORS.muted }}>FSSAI Certified, 100% Natural</td>
+                          <td style={{ padding: "12px 0", color: COLORS.muted }}>{additionalInfo.certification}</td>
                         </tr>
                       </tbody>
                     </table>

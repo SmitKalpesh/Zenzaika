@@ -7,19 +7,16 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
   const [displayProducts, setDisplayProducts] = useState([]);
   
   useEffect(() => {
-    // Update display products when products prop changes
     const prods = limit ? products.slice(0, limit) : products;
     setDisplayProducts(prods);
   }, [products, limit]);
   
-  // Handle product click
   const handleProductClick = (product) => {
     if (onProductClick) {
       onProductClick(product);
     }
   };
   
-  // If no products, show message
   if (!displayProducts || displayProducts.length === 0) {
     return (
       <motion.div
@@ -71,11 +68,23 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
               display: "flex", 
               alignItems: "center", 
               justifyContent: "center",
-              fontSize: 56, 
               overflow: "hidden",
+              padding: "10px",
             }}
           >
-            🫙
+            {product.image ? (
+              <img 
+                src={product.image} 
+                alt={product.name}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+              />
+            ) : (
+              <span style={{ fontSize: 56 }}>{product.emoji || "🫙"}</span>
+            )}
           </motion.div>
           <div style={{ padding: "20px 22px 22px" }}>
             <div style={{ fontSize: 11, color: COLORS.primaryRed, fontWeight: 600, letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 6 }}>

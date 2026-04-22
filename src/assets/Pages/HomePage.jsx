@@ -5,7 +5,7 @@ import { AboutPreview } from "../components/home/AboutPreview";
 import { ProductHighlights } from "../components/products/ProductHighlights";
 import { Testimonials } from "../components/home/Testimonials";
 
-export const HomePage = ({ setActivePage }) => {
+export const HomePage = ({ setActivePage,setSelectedCategory }) => {
   const aboutPreviewRef = useRef(null);
 
   const scrollToAboutPreview = () => {
@@ -25,7 +25,7 @@ export const HomePage = ({ setActivePage }) => {
   return (
     <div>
       <Hero setActivePage={setActivePage} scrollToAboutPreview={scrollToAboutPreview} />
-      <CategoriesSection setActivePage={setActivePage} />
+      <CategoriesSection setActivePage={setActivePage} setSelectedCategory={setSelectedCategory}/>
       {/* Add an id and adjust padding/margin for mobile */}
       <div 
         ref={aboutPreviewRef} 

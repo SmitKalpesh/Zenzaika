@@ -3,31 +3,41 @@ import { COLORS } from "../../../data/constants";
 import { ScrollRevealSection } from "../common/ScrollRevealSection";
 import { staggerContainer, fadeUp } from "../../../styles/animations";
 
-export const CategoriesSection = ({ setActivePage }) => {
+export const CategoriesSection = ({ setActivePage ,setSelectedCategory}) => {
   const categories = [
-    { 
-      name: "Everyday Essentials", 
-      icon: "🌶️", 
-      desc: "The staples every Indian kitchen runs on", 
-      items: ["Turmeric", "Red Chilli", "Coriander", "Cumin"],
-      color: COLORS.primaryRed 
-    },
-    { 
-      name: "Blended Masalas", 
-      icon: "🫙", 
-      desc: "Perfectly balanced flavours, ready to cook", 
-      items: ["Garam Masala", "Kitchen King", "Sabzi Masala"],
-      color: COLORS.gold 
-    },
-    { 
-      name: "Ready-to-Use Mixes", 
-      icon: "⚡", 
-      desc: "Convenience without compromising taste", 
-      items: ["Instant Mixes", "Marinades", "Seasoning Blends"],
-      color: COLORS.accentOrange 
-    },
-  ];
-
+  { 
+    name: "Everyday Essentials", 
+    icon: "🌿", 
+    desc: "The staples every Indian kitchen runs on", 
+    items: ["Turmeric", "Red Chilli", "Coriander", "More"],
+    color: COLORS.primaryRed 
+  },
+  { 
+    name: "Blended Masalas", 
+    icon: "🫙", 
+    desc: "Perfectly balanced flavours, ready to cook", 
+    items: ["Garam Masala", "Kitchen King", "Sabji Masala", "More"],
+    color: COLORS.gold 
+  },
+  { 
+    name: "Ready-to-Use Mixes", 
+    icon: "⚡", 
+    desc: "Convenience without compromising taste", 
+    items: ["Sambar Mix", "Tomato Rice Mix", "Lemon Rice Mix", "More"],
+    color: COLORS.accentOrange 
+  },
+  { 
+    name: "Chutneys", 
+    icon: "🥣", 
+    desc: "Authentic chutneys for every snack", 
+    items: ["Coconut Red", "Coconut Green", "Vada Pav", "More"],
+    color: "#8D6E63" 
+  },
+];
+const handleCategoryClick = (categoryName) => {
+  setSelectedCategory(categoryName);
+  setActivePage("Products");
+};
   return (
     <section style={{ background: COLORS.skinLight, padding: "100px 5vw", overflow: "hidden" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -54,7 +64,7 @@ export const CategoriesSection = ({ setActivePage }) => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 28 }}
+          style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 28 }}
         >
           {categories.map((cat) => (
             <motion.div
@@ -70,7 +80,7 @@ export const CategoriesSection = ({ setActivePage }) => {
                 cursor: "pointer",
                 border: `1px solid ${cat.color}15`,
               }}
-              onClick={() => setActivePage("Products")}
+             onClick={() => handleCategoryClick(cat.name)}
             >
               <motion.div
                 whileHover={{ rotate: 10, scale: 1.05 }}

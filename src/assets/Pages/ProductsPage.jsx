@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { COLORS } from "../../data/constants";
 import { PRODUCTS } from "../../data/products";
@@ -7,9 +7,16 @@ import { ProductsGrid } from "../components/products/ProductsGrid";
 import { Breadcrumbs } from "../components/common/Breadcrumbs";
 import { ProductDetailPage } from "./ProductDetailPage";
 
-export const ProductsPage = ({ setActivePage }) => {
+export const ProductsPage = ({ setActivePage, selectedCategory }) => {  // ← ADD selectedCategory prop
   const [filter, setFilter] = useState("All");
   const [selectedProduct, setSelectedProduct] = useState(null);
+  
+  // Update filter when selectedCategory changes (from category click)
+  useEffect(() => {
+    if (selectedCategory) {
+      setFilter(selectedCategory);
+    }
+  }, [selectedCategory]);
   
   const cats = ["All", ...CATEGORIES.map(cat => cat.name)];
   const filtered = filter === "All" ? PRODUCTS : PRODUCTS.filter(p => p.category === filter);
@@ -45,10 +52,10 @@ export const ProductsPage = ({ setActivePage }) => {
             Our Range
           </span>
           <h1 className="playfair" style={{ fontSize: "clamp(32px, 4vw, 52px)", color: "#fff", fontWeight: 700, marginTop: 12 }}>
-            Premium Products
+            {filter === "All" ? "Premium Products" : filter}
           </h1>
           <p style={{ fontSize: 16, color: "rgba(255,255,255,0.85)", marginTop: 12 }}>
-            Sourced honestly. Crafted with love.
+            {filter === "All" ? "Sourced honestly. Crafted with love." : ""}
           </p>
         </div>
       </div>
