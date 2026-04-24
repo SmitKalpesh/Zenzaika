@@ -41,19 +41,23 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
       variants={staggerContainer}
       initial="hidden"
       animate="visible"
-      style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: 28 }}
+      style={{ 
+        display: "grid", 
+        gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", 
+        gap: 40 
+      }}
     >
       {displayProducts.map((product, index) => (
         <motion.div
           key={`${product.name}-${index}-${products.length}`}
           variants={fadeUp}
-          whileHover={{ y: -6, scale: 1.01 }}
+          whileHover={{ y: -8, scale: 1.02 }}
           transition={{ type: "spring", stiffness: 300 }}
           style={{
             background: COLORS.white,
-            borderRadius: 20,
+            borderRadius: 24,
             overflow: "hidden",
-            boxShadow: "0 4px 16px rgba(0,0,0,0.04)",
+            boxShadow: "0 8px 24px rgba(0,0,0,0.08)",
             border: "1px solid rgba(0,0,0,0.04)",
             cursor: "pointer",
           }}
@@ -63,13 +67,13 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.4 }}
             style={{
-              height: 170, 
+              height: 350, // Increased from 170 to 280
               background: product.bg || COLORS.skinLight,
               display: "flex", 
               alignItems: "center", 
               justifyContent: "center",
               overflow: "hidden",
-              padding: "10px",
+            
             }}
           >
             {product.image ? (
@@ -77,32 +81,32 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
                 src={product.image} 
                 alt={product.name}
                 style={{
-                  width: "100%",
-                  height: "100%",
+                  width: "600px",
+                  height: "600px",
                   objectFit: "contain",
                 }}
               />
             ) : (
-              <span style={{ fontSize: 56 }}>{product.emoji || "🫙"}</span>
+              <span style={{ fontSize: 80 }}>{product.emoji || "🫙"}</span> // Increased from 56 to 80
             )}
           </motion.div>
-          <div style={{ padding: "20px 22px 22px" }}>
-            <div style={{ fontSize: 11, color: COLORS.primaryRed, fontWeight: 600, letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 6 }}>
+          <div style={{ padding: "24px 24px 28px" }}> {/* Increased padding */}
+            <div style={{ fontSize: 12, color: COLORS.primaryRed, fontWeight: 700, letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 8 }}>
               {product.category}
             </div>
-            <h3 className="playfair" style={{ fontSize: 18, fontWeight: 600, marginBottom: 8, color: COLORS.charcoal }}>
+            <h3 className="playfair" style={{ fontSize: 20, fontWeight: 700, marginBottom: 10, color: COLORS.charcoal }}>
               {product.name}
             </h3>
-            <p style={{ fontSize: 13, color: COLORS.muted, lineHeight: 1.6, marginBottom: 16 }}>
+            <p style={{ fontSize: 14, color: COLORS.muted, lineHeight: 1.6, marginBottom: 18 }}>
               {product.desc}
             </p>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-              <span style={{ fontSize: 11, color: COLORS.primaryRed, fontWeight: 500, background: `${COLORS.primaryRed}08`, padding: "3px 10px", borderRadius: 50 }}>
+              <span style={{ fontSize: 12, color: COLORS.primaryRed, fontWeight: 600, background: `${COLORS.primaryRed}08`, padding: "4px 12px", borderRadius: 50 }}>
                 100% Natural
               </span>
               <motion.span 
                 whileHover={{ x: 5 }} 
-                style={{ fontSize: 13, color: COLORS.primaryRed, fontWeight: 500, cursor: "pointer" }}
+                style={{ fontSize: 14, color: COLORS.primaryRed, fontWeight: 600, cursor: "pointer" }}
                 onClick={(e) => {
                   e.stopPropagation();
                   handleProductClick(product);

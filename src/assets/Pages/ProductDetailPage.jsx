@@ -55,8 +55,7 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
         </div>
       </div>
 
-      {/* Product Section */}
-      <section style={{ background: COLORS.skinLight, padding: "60px 5vw" }}>
+      {/* Product Section */} <section style={{ padding: "60px 5vw" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 60 }} className="responsive-grid">
             
@@ -66,9 +65,9 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
               style={{
-                background: product.bg || COLORS.white,
+                
                 borderRadius: 20,
-                padding: "40px",
+        
                 textAlign: "center",
                 boxShadow: "0 4px 20px rgba(0,0,0,0.04)",
                 border: `1px solid ${COLORS.primaryRed}10`,
@@ -80,11 +79,13 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
                   alt={product.name}
                   style={{
                     width: "100%",
-                    height: "auto",
-                    maxWidth: "500px",
-                    maxHeight: "500px",
-                    objectFit: "contain",
+                    height: "100%",
+                    maxWidth: "800px",
+                    maxHeight: "800px",
+                    objectFit: "cover",
                     margin: "0 auto",
+                    borderRadius:24,
+                    
                   }}
                 />
               ) : (
@@ -251,6 +252,7 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
           </div>
         </div>
       </section>
+     
     </div>
   );
 };
