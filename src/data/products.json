@@ -1533,6 +1533,136 @@
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
       }
-    }
+    },
+    {
+  "id": 60,
+  "name": "Mysore Dosa Chutney",
+  "category": "Chutneys",
+  "desc": "A rich and flavorful blend inspired by traditional South Indian Mysore-style chutney, delivering a deep, spicy taste with a distinct roasted character that reflects authentic regional flavors.",
+  "image": "/src/assets/images/Zenzaika Mysore Dosa Chutney.jpeg",
+  "bg": "#FFF3E0",
+  "inStock": true,
+  "isFeatured": true,
+  "rating": 4.8,
+  "reviews": 45,
+  "productInfo": {
+    "availableSizes": ["50 gram", "100 gram"],
+    "richColorAroma": "A rich and flavorful blend inspired by traditional South Indian Mysore-style chutney, delivering a deep, spicy taste with a distinct roasted character that reflects authentic regional flavors. Carefully blended to retain a strong and appetizing aroma that enhances the authenticity of your dishes.",
+    "packaging": "Sealed in airtight packaging to preserve freshness and flavor consistency.",
+    "hygiene": "Made with clean, quality ingredients without artificial additives.",
+    "elevateCooking": "Perfect for dosa and crispy snacks, adding a bold layer of flavor to every bite."
+  },
+  "additionalInfo": {
+    "productSizes": "50 gram, 100 gram",
+    "category": "Chutneys",
+    "storage": "Store in a cool, dry place away from direct sunlight",
+    "shelfLife": "12 months from manufacturing date",
+    "certification": "FSSAI Certified, 100% Natural"
+  }
+},
+{
+  "id": 61,
+  "name": "Green Chutney",
+  "category": "Chutneys",
+  "desc": "A classic blend of fresh herbs and green chillies that delivers a clean, vibrant taste with a natural sharpness and lively kick, bringing out the true freshness of everyday ingredients.",
+  "image": "/src/assets/images/Zenzaika Green Chutney.jpeg",
+  "bg": "#E8F5E9",
+  "inStock": true,
+  "isFeatured": true,
+  "rating": 4.7,
+  "reviews": 52,
+  "productInfo": {
+    "availableSizes": ["50 gram", "100 gram"],
+    "richColorAroma": "A classic blend of fresh herbs and green chillies that delivers a clean, vibrant taste with a natural sharpness and lively kick, bringing out the true freshness of everyday ingredients. Crafted to retain the natural aroma of herbs and chillies, giving a fresh and lively fragrance to every serving.",
+    "packaging": "Sealed in airtight packaging to maintain freshness and consistent quality.",
+    "hygiene": "Made with natural ingredients without artificial colors or additives.",
+    "elevateCooking": "Perfect for snacks, chaats, sandwiches, and everyday meals, adding a burst of fresh and flavorful taste."
+  },
+  "additionalInfo": {
+    "productSizes": "50 gram, 100 gram",
+    "category": "Chutneys",
+    "storage": "Store in a cool, dry place away from direct sunlight",
+    "shelfLife": "12 months from manufacturing date",
+    "certification": "FSSAI Certified, 100% Natural"
+  }
+},
+{
+  "id": 62,
+  "name": "Groundnut Chutney",
+  "category": "Chutneys",
+  "desc": "A wholesome blend with the natural richness of roasted groundnuts, offering a smooth, mildly spiced taste that feels both comforting and satisfying.",
+  "image": "/src/assets/images/Zenzaika Groundnut Chutney.jpeg",
+  "bg": "#FFF8E1",
+  "inStock": true,
+  "isFeatured": true,
+  "rating": 4.6,
+  "reviews": 38,
+  "productInfo": {
+    "availableSizes": ["50 gram", "100 gram"],
+    "richColorAroma": "A wholesome blend with the natural richness of roasted groundnuts, offering a smooth, mildly spiced taste that feels both comforting and satisfying. Carefully prepared to retain the warm and roasted aroma of groundnuts, enhancing the overall flavor.",
+    "packaging": "Packed in airtight packaging to lock in freshness and maintain consistent quality.",
+    "hygiene": "No artificial colors or additives — just clean and natural ingredients.",
+    "elevateCooking": "Perfect for idli, dosa, and snacks, adding a rich and hearty touch to everyday meals."
+  },
+  "additionalInfo": {
+    "productSizes": "50 gram, 100 gram",
+    "category": "Chutneys",
+    "storage": "Store in a cool, dry place away from direct sunlight",
+    "shelfLife": "12 months from manufacturing date",
+    "certification": "FSSAI Certified, 100% Natural"
+  }
+},
+{
+  "id": 63,
+  "name": "Pudina Coconut Chutney",
+  "category": "Chutneys",
+  "desc": "A refreshing blend of mint and coconut that delivers a light, cooling taste with a subtle hint of spice, making it a perfect balance to rich and savory dishes.",
+  "image": "/src/assets/images/Zenzaika Pudina Coconut Chutney.jpeg",
+  "bg": "#E0F2F1",
+  "inStock": true,
+  "isFeatured": true,
+  "rating": 4.9,
+  "reviews": 61,
+  "productInfo": {
+    "availableSizes": ["50 gram", "100 gram"],
+    "richColorAroma": "A refreshing blend of mint and coconut that delivers a light, cooling taste with a subtle hint of spice, making it a perfect balance to rich and savory dishes. Crafted to preserve the natural freshness of mint, offering a clean and uplifting aroma in every serving.",
+    "packaging": "Packed in airtight packaging to maintain freshness and consistent quality over time.",
+    "hygiene": "No artificial colors or fillers — only carefully selected ingredients for a natural taste.",
+    "elevateCooking": "Ideal for snacks, chaats, and light meals, adding a refreshing touch to everyday favorites."
+  },
+  "additionalInfo": {
+    "productSizes": "50 gram, 100 gram",
+    "category": "Chutneys",
+    "storage": "Store in a cool, dry place away from direct sunlight",
+    "shelfLife": "12 months from manufacturing date",
+    "certification": "FSSAI Certified, 100% Natural"
+  }
+},
+{
+  "id": 64,
+  "name": "Tomato Coconut Chutney",
+  "category": "Chutneys",
+  "desc": "A thoughtfully crafted blend that brings together the natural depth of ripe tomatoes with the smooth richness of coconut, delivering a homely taste with gentle spice and a well-rounded finish.",
+  "image": "/src/assets/images/Zenzaika Tomato Coconut Chutney.jpeg",
+  "bg": "#FFEBEE",
+  "inStock": true,
+  "isFeatured": true,
+  "rating": 4.7,
+  "reviews": 43,
+  "productInfo": {
+    "availableSizes": ["50 gram", "100 gram"],
+    "richColorAroma": "A thoughtfully crafted blend that brings together the natural depth of ripe tomatoes with the smooth richness of coconut, delivering a homely taste with gentle spice and a well-rounded finish. Carefully prepared to retain the fresh, lightly cooked aroma of tomatoes along with subtle roasted notes, adding warmth and familiarity to every serving.",
+    "packaging": "Sealed in airtight packaging to lock in freshness and ensure consistent flavor from the first use to the last.",
+    "hygiene": "Made with clean, natural ingredients without artificial colors or additives, keeping the taste authentic and reliable.",
+    "elevateCooking": "Perfect for idli, dosa, and snacks, while also complementing simple home-style meals with ease."
+  },
+  "additionalInfo": {
+    "productSizes": "50 gram, 100 gram",
+    "category": "Chutneys",
+    "storage": "Store in a cool, dry place away from direct sunlight",
+    "shelfLife": "12 months from manufacturing date",
+    "certification": "FSSAI Certified, 100% Natural"
+  }
+}
   ]
 }
