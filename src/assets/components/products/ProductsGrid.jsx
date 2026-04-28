@@ -64,32 +64,33 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
           onClick={() => handleProductClick(product)}
         >
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.4 }}
-            style={{
-              height: 350, // Increased from 170 to 280
-              background: product.bg || COLORS.skinLight,
-              display: "flex", 
-              alignItems: "center", 
-              justifyContent: "center",
-              overflow: "hidden",
-            
-            }}
-          >
-            {product.image ? (
-              <img 
-                src={product.image} 
-                alt={product.name}
-                style={{
-                  width: "600px",
-                  height: "600px",
-                  objectFit: "contain",
-                }}
-              />
-            ) : (
-              <span style={{ fontSize: 80 }}>{product.emoji || "🫙"}</span> // Increased from 56 to 80
-            )}
-          </motion.div>
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.4 }}
+  style={{
+    height: 320, // Fixed height for consistency
+    background: product.bg || COLORS.skinLight,
+    display: "flex", 
+    alignItems: "center", 
+    justifyContent: "center",
+    overflow: "hidden",
+    position: "relative",
+  }}
+>
+  {product.image ? (
+    <img 
+      src={product.image} 
+      alt={product.name}
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+        
+      }}
+    />
+  ) : (
+    <span style={{ fontSize: 80 }}>{product.emoji || "🫙"}</span>
+  )}
+</motion.div>
           <div style={{ padding: "24px 24px 28px" }}> {/* Increased padding */}
             <div style={{ fontSize: 12, color: COLORS.primaryRed, fontWeight: 700, letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 8 }}>
               {product.category}

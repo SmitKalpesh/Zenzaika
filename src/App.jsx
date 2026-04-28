@@ -89,7 +89,7 @@ function App() {
           </motion.div>
         </AnimatePresence>
       </main>
-      <Footer setActivePage={setActivePage} />
+      <Footer setActivePage={setActivePage}   setSelectedCategory={setSelectedCategory} />
       <BackToTop />
     </>
   );

@@ -96,7 +96,7 @@ export const ContactPage = ({setActivePage}) => {
               style={{ marginTop: 24, borderRadius: 16, overflow: "hidden", border: "1px solid rgba(0,0,0,0.06)", background: COLORS.skinWarm, height: 160, display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 8 }}
             >
               <div style={{ fontSize: 28 }}>🗺️</div>
-              <div style={{ fontSize: 12, color: COLORS.muted, fontWeight: 500 }}>Rajkot, Gujarat, India</div>
+              <div style={{ fontSize: 12, color: COLORS.muted, fontWeight: 500 }}>Thane, Maharashtra, India</div>
             </motion.div>
           </ScrollRevealSection>
 

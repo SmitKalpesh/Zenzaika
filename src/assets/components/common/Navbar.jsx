@@ -89,38 +89,44 @@ export const Navbar = ({ activePage, setActivePage }) => {
     >
       <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 72 }}>
         {/* Logo */}
-        <motion.div
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
-          style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}
-          onClick={handleHomeClick}
-        >
-          <motion.div
-            animate={{ rotate: [0, 5, 0] }}
-            transition={{ duration: 3, repeat: Infinity }}
-            style={{
-              width: 36, height: 36, borderRadius: 10,
-              background: `linear-gradient(135deg, ${COLORS.primaryRed}, ${COLORS.gold})`,
-              display: "flex", alignItems: "center", justifyContent: "center",
-              fontSize: 18,
-              boxShadow: !isHomePage ? "0 4px 12px rgba(0,0,0,0.1)" : "0 4px 12px rgba(192,57,43,0.3)"
-            }}
-          >
-            🌿
-          </motion.div>
-          <div>
-            <div className="playfair" style={{ 
-              fontSize: 17, fontWeight: 700, 
-              color: getLogoColor(), 
-              lineHeight: 1.1 
-            }}>Zenzaika</div>
-            <div style={{ 
-              fontSize: 9, letterSpacing: 2, 
-              color: getLogoColor() === COLORS.charcoal ? COLORS.muted : "rgba(255,255,255,0.6)", 
-              textTransform: "uppercase", fontWeight: 500 
-            }}>Foods & Spices</div>
-          </div>
-        </motion.div>
+      <motion.div
+  whileHover={{ scale: 1.02 }}
+  whileTap={{ scale: 0.98 }}
+  style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}
+  onClick={handleHomeClick}
+>
+  <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+    
+    {/* Logo */}
+    <img
+      src="/src/assets/Zenzaikablacklogo.png"
+      alt="Zenzaika"
+      style={{
+        height: 50,
+        objectFit: "contain",
+        display: "block",
+      }}
+    />
+
+    {/* Tagline */}
+    <div
+      style={{
+        fontSize: 10,
+        letterSpacing: 2.5,
+        marginTop: 4,
+        color:
+          getLogoColor() === COLORS.charcoal
+            ? COLORS.muted
+            : "rgba(255,255,255,0.65)",
+        textTransform: "uppercase",
+        fontWeight: 500,
+      }}
+    >
+      Foods & Spices
+    </div>
+
+  </div>
+</motion.div>
 
         {/* Desktop Navigation */}
         <div style={{ display: "flex", gap: 36, alignItems: "center" }} className="desktop-nav">

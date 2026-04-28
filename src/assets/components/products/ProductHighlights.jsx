@@ -4,7 +4,7 @@ import { PRODUCTS } from "../../../data/products";
 import { ScrollRevealSection } from "../common/ScrollRevealSection";
 import { ProductsGrid } from "../products/ProductsGrid";
 
-export const ProductHighlights = ({ setActivePage }) => {
+export const ProductHighlights = ({ setActivePage, onProductClick }) => {
   return (
     <section style={{ background: COLORS.skinLight, padding: "100px 5vw" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -17,7 +17,12 @@ export const ProductHighlights = ({ setActivePage }) => {
           </div>
         </ScrollRevealSection>
         
-        <ProductsGrid setActivePage={setActivePage} products={PRODUCTS} limit={8} />
+        <ProductsGrid 
+          setActivePage={setActivePage} 
+          products={PRODUCTS} 
+          limit={8} 
+          onProductClick={onProductClick}
+        />
         
         <motion.div
           initial={{ opacity: 0, y: 20 }}

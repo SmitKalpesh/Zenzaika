@@ -7,13 +7,13 @@ import { ProductsGrid } from "../components/products/ProductsGrid";
 import { Breadcrumbs } from "../components/common/Breadcrumbs";
 import { ProductDetailPage } from "./ProductDetailPage";
 
-export const ProductsPage = ({ setActivePage, selectedCategory }) => {  // ← ADD selectedCategory prop
+export const ProductsPage = ({ setActivePage, selectedCategory }) => {
   const [filter, setFilter] = useState("All");
   const [selectedProduct, setSelectedProduct] = useState(null);
   
-  // Update filter when selectedCategory changes (from category click)
+  // Update filter when selectedCategory changes (from footer/category click)
   useEffect(() => {
-    if (selectedCategory) {
+    if (selectedCategory && selectedCategory !== "All") {
       setFilter(selectedCategory);
     }
   }, [selectedCategory]);
@@ -55,7 +55,7 @@ export const ProductsPage = ({ setActivePage, selectedCategory }) => {  // ← A
             {filter === "All" ? "Premium Products" : filter}
           </h1>
           <p style={{ fontSize: 16, color: "rgba(255,255,255,0.85)", marginTop: 12 }}>
-            {filter === "All" ? "Sourced honestly. Crafted with love." : ""}
+            Sourced honestly. Crafted with love.
           </p>
         </div>
       </div>
@@ -70,8 +70,6 @@ export const ProductsPage = ({ setActivePage, selectedCategory }) => {  // ← A
             {cats.map(c => (
               <motion.button
                 key={c}
-                whileHover={{ scale: 1.02, y: -1 }}
-                whileTap={{ scale: 0.98 }}
                 onClick={() => setFilter(c)}
                 style={{
                   padding: "10px 24px", 
