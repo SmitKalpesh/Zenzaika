@@ -62,7 +62,7 @@ export const CATEGORIES = [
   },
 
   { 
-    name: "Ready-to-Use Mixes",
+    name: "Ready to Use Mixes",
     icon: "⚡",
     desc: "Quick and delicious ready-to-cook mixes",
     items: [

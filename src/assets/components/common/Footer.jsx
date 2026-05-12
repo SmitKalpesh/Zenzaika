@@ -74,6 +74,7 @@ export const Footer = ({ setActivePage, setSelectedCategory }) => {
               items: [
                 { name: "Home", action: () => setActivePage("Home") },
                 { name: "Products", action: () => setActivePage("Products") },
+                { name: "Recipes", action: () => setActivePage("Recipes") },
                 { name: "About", action: () => setActivePage("About") },
                 { name: "Contact", action: () => setActivePage("Contact") },
               ],
@@ -83,7 +84,7 @@ export const Footer = ({ setActivePage, setSelectedCategory }) => {
               items: [
                 { name: "Everyday Essentials", action: () => handleProductCategoryClick("Everyday Essentials") },
                 { name: "Blended Masalas", action: () => handleProductCategoryClick("Blended Masalas") },
-                { name: "Ready-to-Use Mixes", action: () => handleProductCategoryClick("Ready-to-Use Mixes") },
+                { name: "Ready to Use Mixes", action: () => handleProductCategoryClick("Ready to Use Mixes") },
                 { name: "Chutneys", action: () => handleProductCategoryClick("Chutneys") },
               ],
             },
@@ -132,27 +133,51 @@ export const Footer = ({ setActivePage, setSelectedCategory }) => {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          style={{
-            borderTop: "1px solid rgba(255,255,255,0.08)",
-            paddingTop: 24,
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            flexWrap: "wrap",
-            gap: 12,
-          }}
-        >
-          <div style={{ fontSize: 11, color: "rgba(255,255,255,0.35)" }}>
-            © 2025 Zenzaika Foods & Spices Pvt. Ltd. All rights reserved.
-          </div>
-          <div style={{ fontSize: 11, color: "rgba(255,255,255,0.35)" }}>
-            FSSAI Lic. No. 10015022000012 · Developed by Bizzyatra
-          </div>
-        </motion.div>
+       <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ delay: 0.3 }}
+  style={{
+    borderTop: "1px solid rgba(255,255,255,0.08)",
+    paddingTop: 24,
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexWrap: "wrap",
+    gap: 12,
+  }}
+>
+  <div style={{ fontSize: 11, color: "rgba(255,255,255,0.35)" }}>
+    © 2025 Zenzaika Foods & Spices Pvt. Ltd. All rights reserved.
+  </div>
+
+  <div style={{ fontSize: 11, color: "rgba(255,255,255,0.35)" }}>
+    FSSAI Lic. No. 10015022000012
+  </div>
+
+  <motion.div
+    whileHover={{ y: -1 }}
+    onClick={() => window.open("https://bizzyatra.com", "_blank")} // 🔥 
+    style={{
+      fontSize: 11,
+      color: "#fff",                          
+      fontWeight: 500,
+      cursor: "pointer",
+      opacity: 0.8,
+      transition: "all 0.2s ease",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.color = COLORS.gold;
+      e.currentTarget.style.opacity = "1";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.color = "#fff";
+      e.currentTarget.style.opacity = "0.8";
+    }}
+  >
+    Developed by <span style={{ fontWeight: 600 }}>Bizzyatra</span>
+  </motion.div>
+</motion.div>
       </div>
     </footer>
   );

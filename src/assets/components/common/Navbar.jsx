@@ -170,27 +170,56 @@ export const Navbar = ({ activePage, setActivePage }) => {
             whileTap={{ scale: 0.98 }}
             className={getButtonStyle()}
             style={{ padding: "10px 22px", fontSize: 13 ,backgroundColor:COLORS.deepRed}}
-            onClick={() => setActivePage("Contact")}
+            onClick={() => window.open("https://wa.me/919920009905", "_blank")}
           >
             Get in Touch
           </motion.button>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button 
-          onClick={() => setMenuOpen(!menuOpen)} 
-          style={{ 
-            display: "none", 
-            background: "none", 
-            border: "none", 
-            cursor: "pointer", 
-            fontSize: 22,
-            color: getTextColor()
-          }} 
-          className="mobile-menu-btn"
-        >
-          {menuOpen ? "✕" : "☰"}
-        </button>
+       {/* Mobile Right Section */}
+<div
+  style={{
+    display: "none",
+    alignItems: "center",
+    gap: 12,
+  }}
+  className="mobile-actions"
+>
+  
+  {/* Get in Touch Button */}
+  <motion.button
+    whileHover={{ scale: 1.02 }}
+    whileTap={{ scale: 0.98 }}
+    style={{
+      padding: "6px 14px",
+      fontSize: 12,
+      backgroundColor: COLORS.primaryRed,
+      color: "#fff",
+      border: "none",
+      borderRadius: 8,
+      cursor: "pointer",
+      whiteSpace: "nowrap",
+    }}
+     onClick={() => window.open("https://wa.me/919920009905", "_blank")}
+  >
+    Get in Touch
+  </motion.button>
+
+  {/* Hamburger */}
+  <button 
+    onClick={() => setMenuOpen(!menuOpen)} 
+    style={{ 
+      background: "none", 
+      border: "none", 
+      cursor: "pointer", 
+      fontSize: 22,
+      color: getTextColor()
+    }} 
+  >
+    {menuOpen ? "✕" : "☰"}
+  </button>
+
+</div>
       </div>
 
       <style>{`

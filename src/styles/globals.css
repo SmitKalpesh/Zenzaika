@@ -261,3 +261,12 @@ html {
     scroll-margin-top: 70px;
   }
 }
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .mobile-actions {
+    display: flex !important;
+  }
+}

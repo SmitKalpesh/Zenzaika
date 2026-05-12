@@ -67,7 +67,7 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
   whileHover={{ scale: 1.05 }}
   transition={{ duration: 0.4 }}
   style={{
-    height: 320, // Fixed height for consistency
+    height: 320, 
     background: product.bg || COLORS.skinLight,
     display: "flex", 
     alignItems: "center", 
@@ -91,7 +91,7 @@ export const ProductsGrid = ({ setActivePage, products, limit = null, onProductC
     <span style={{ fontSize: 80 }}>{product.emoji || "🫙"}</span>
   )}
 </motion.div>
-          <div style={{ padding: "24px 24px 28px" }}> {/* Increased padding */}
+          <div style={{ padding: "24px 24px 28px" }}>
             <div style={{ fontSize: 12, color: COLORS.primaryRed, fontWeight: 700, letterSpacing: 1.5, textTransform: "uppercase", marginBottom: 8 }}>
               {product.category}
             </div>

@@ -1,0 +1,193 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "PUNJABI CHHOLE",
+      "masalaName": "Zenzaika Chhole Masala",
+      "description": "Authentic Punjabi Chhole made with Zenzaika Chhole Masala",
+      "image": "/src/assets/recipeimages/Chhole.png",
+      "ingredients": [
+        "For Chhole:",
+        "2 Cups Soaked Chickpeas",
+        "Salt to taste",
+        "Water as required",
+     
+        "For Cooking:",
+        "2 Tbsp Oil",
+        "2 Tbsp Ghee",
+        "2 Green Cardamom",
+        "1 Inch Cinnamon Stick",
+        "2–3 Cloves",
+        "1 Bay Leaf",
+        "1/2 Cup Chopped Onion",
+        "1 Cup Tomato Puree",
+        "1 Tbsp Ginger Garlic Paste",
+        "1/2 Tsp Turmeric Powder",
+        "1 Tbsp Coriander Powder",
+        "1 Tbsp Red Chilli Powder",
+        "1–2 Tbsp Zenzaika Chhole Masala",
+        "1 Tsp Cumin Powder",
+        "2–3 Slit Green Chillies",
+        "1 Tbsp Curd",
+        "Fresh Coriander Leaves"
+      ],
+      "instructions": [
+        "Boil Chhole",
+        "1. Add soaked chickpeas, salt, and water in a cooker.",
+        "2. Cook for 6–7 whistles until soft.",
+
+        "Cooking",
+        "1. Heat oil and ghee in a pan.",
+        "2. Add whole spices and sauté.",
+        "3. Add chopped onion and cook till golden.",
+        "4. Add ginger garlic paste and cook briefly.",
+        "5. Add tomato puree and cook till oil separates.",
+        "6. Add turmeric, coriander powder, red chilli powder, and Zenzaika Chhole Masala.",
+        "7. Add curd and mix well.",
+        "8. Add boiled chhole with water.",
+        "9. Simmer for 10–12 minutes.",
+        "10. Garnish with coriander leaves and serve hot."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "TANDOORI CHICKEN",
+      "masalaName": "Zenzaika Tandoori Chicken Masala",
+      "description": "Juicy and flavorful Tandoori Chicken made with Zenzaika Tandoori Chicken Masala",
+      "image": "/src/assets/recipeimages/Tandoori Chicken.png",
+      "ingredients": [
+        "For Chicken:",
+        "500g Chicken",
+        "Salt to taste",
+        "Lemon juice",
+   
+        "For Marination:",
+        "1 Cup Curd",
+        "1 Tbsp Ginger Garlic Paste",
+        "2 Tbsp Zenzaika Tandoori Chicken Masala",
+        "1 Tbsp Oil"
+      ],
+      "instructions": [
+        "1. Clean chicken and make cuts.",
+        "2. Apply salt and lemon juice, rest for 15 minutes.",
+        "3. Mix curd, ginger garlic paste, and Zenzaika Tandoori Chicken Masala.",
+        "4. Coat chicken evenly and marinate for 2–4 hours.",
+        "5. Grill or roast until cooked and slightly charred.",
+        "6. Serve hot with onion and lemon."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "PANEER TIKKA",
+      "masalaName": "Zenzaika Paneer Tikka Masala",
+      "description": "Creamy and smoky Paneer Tikka made with Zenzaika Paneer Tikka Masala",
+      "image": "/src/assets/recipeimages/Paneer Tikka Masala.png",
+      "ingredients": [
+        "For Paneer:",
+        "250g Paneer cubes",
+        "Onion & Capsicum cubes",
+
+        "For Marination:",
+        "1/2 Cup Curd",
+        "1 Tbsp Ginger Garlic Paste",
+        "1–2 Tbsp Zenzaika Paneer Tikka Masala",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "1. Mix curd, ginger garlic paste, and masala.",
+        "2. Add paneer and vegetables, coat well.",
+        "3. Marinate for 30–60 minutes.",
+        "4. Skewer and grill or roast until slightly charred.",
+        "5. Serve hot with chutney."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "MUMBAI PAV BHAJI",
+      "masalaName": "Zenzaika Pav Bhaji Masala",
+      "description": "Street-style Mumbai Pav Bhaji made with Zenzaika Pav Bhaji Masala",
+      "image": "/src/assets/recipeimages/Pav Bhaji.png",
+      "ingredients": [
+        "For Bhaji:",
+        "Boiled Potatoes, Peas, Vegetables",
+        "Salt to taste",
+  
+        "For Cooking:",
+        "2 Tbsp Butter",
+        "1 Onion (chopped)",
+        "1 Cup Tomato Puree",
+        "1 Tbsp Ginger Garlic Paste",
+        "1–2 Tbsp Zenzaika Pav Bhaji Masala",
+        "Red Chilli Powder",
+        "Lemon Juice"
+      ],
+      "instructions": [
+        "1. Heat butter and sauté onions.",
+        "2. Add ginger garlic paste.",
+        "3. Add tomato puree and cook well.",
+        "4. Add vegetables and mash thoroughly.",
+        "5. Add Zenzaika Pav Bhaji Masala and spices.",
+        "6. Cook till thick and flavorful.",
+        "7. Garnish with butter and coriander.",
+        "8. Serve hot with pav."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "MISAL PAV",
+      "masalaName": "Zenzaika Misal Pav Masala",
+      "description": "Spicy and tangy Maharashtrian Misal Pav made with Zenzaika Misal Pav Masala",
+      "image": "/src/assets/recipeimages/Misal Pav.png",
+      "ingredients": [
+        "For Misal:",
+        "Sprouted Matki",
+        "Boiled Potatoes",
+     
+        "For Gravy:",
+        "Onion, Tomato",
+        "Ginger Garlic Paste",
+        "1–2 Tbsp Zenzaika Misal Pav Masala",
+        "Red Chilli Powder",
+        "Oil"
+      ],
+      "instructions": [
+        "1. Cook sprouts until soft.",
+        "2. Heat oil and sauté onions.",
+        "3. Add ginger garlic paste and tomatoes.",
+        "4. Add Zenzaika Misal Pav Masala and spices.",
+        "5. Add sprouts and cook with water.",
+        "6. Simmer till flavorful.",
+        "7. Serve with farsan, onion, and pav."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "KARAHI CHICKEN",
+      "masalaName": "Zenzaika Karahi Chicken Masala",
+      "description": "Rich and aromatic Karahi Chicken made with Zenzaika Karahi Chicken Masala",
+      "image": "/src/assets/recipeimages/Karahi Chicken Masala.png",
+      "ingredients": [
+        "For Chicken:",
+        "500g Chicken",
+      
+        "For Cooking:",
+        "2 Tbsp Oil",
+        "1 Cup Tomato (chopped)",
+        "1 Tbsp Ginger Garlic Paste",
+        "1–2 Tbsp Zenzaika Karahi Chicken Masala",
+        "Green Chillies",
+        "Fresh Coriander"
+      ],
+      "instructions": [
+        "1. Heat oil and add chicken pieces.",
+        "2. Cook till lightly browned.",
+        "3. Add ginger garlic paste.",
+        "4. Add tomatoes and cook till soft.",
+        "5. Add Zenzaika Karahi Chicken Masala.",
+        "6. Cook on medium heat till oil separates.",
+        "7. Add green chillies and coriander.",
+        "8. Serve hot."
+      ]
+    }
+  ]
+}

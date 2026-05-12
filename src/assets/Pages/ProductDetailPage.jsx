@@ -94,29 +94,8 @@ export const ProductDetailPage = ({ setActivePage, product, onBackToProducts }) 
                 </div>
               )}
               
-              {/* Tags */}
-              <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 20 }}>
-                <span style={{
-                  background: COLORS.primaryRed,
-                  color: "#fff",
-                  padding: "6px 16px",
-                  borderRadius: 50,
-                  fontSize: 12,
-                  fontWeight: 600
-                }}>
-                  {product.category}
-                </span>
-                <span style={{
-                  background: `${COLORS.gold}20`,
-                  color: COLORS.gold,
-                  padding: "6px 16px",
-                  borderRadius: 50,
-                  fontSize: 12,
-                  fontWeight: 600
-                }}>
-                  100% Natural
-                </span>
-              </div>
+             
+             
             </motion.div>
 
             {/* Right Column - Product Info */}

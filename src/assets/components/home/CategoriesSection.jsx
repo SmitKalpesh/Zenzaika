@@ -3,44 +3,49 @@ import { COLORS } from "../../../data/constants";
 import { ScrollRevealSection } from "../common/ScrollRevealSection";
 import { staggerContainer, fadeUp } from "../../../styles/animations";
 
-export const CategoriesSection = ({ setActivePage ,setSelectedCategory}) => {
+export const CategoriesSection = ({ setActivePage, setSelectedCategory }) => {
+
   const categories = [
-  { 
-    name: "Everyday Essentials", 
-    icon: "🌿", 
-    desc: "The staples every Indian kitchen runs on", 
-    items: ["Turmeric", "Red Chilli", "Coriander", "More"],
-    color: COLORS.primaryRed 
-  },
-  { 
-    name: "Blended Masalas", 
-    icon: "🫙", 
-    desc: "Perfectly balanced flavours, ready to cook", 
-    items: ["Garam Masala", "Kitchen King", "Sabji Masala", "More"],
-    color: COLORS.gold 
-  },
-  { 
-    name: "Ready-to-Use Mixes", 
-    icon: "⚡", 
-    desc: "Convenience without compromising taste", 
-    items: ["Sambar Mix", "Tomato Rice Mix", "Lemon Rice Mix", "More"],
-    color: COLORS.accentOrange 
-  },
-  { 
-    name: "Chutneys", 
-    icon: "🥣", 
-    desc: "Authentic chutneys for every snack", 
-    items: ["Coconut Red", "Coconut Green", "Vada Pav", "More"],
-    color: "#8D6E63" 
-  },
-];
-const handleCategoryClick = (categoryName) => {
-  setSelectedCategory(categoryName);
-  setActivePage("Products");
-};
+    { 
+      name: "Everyday Essentials", 
+      icon: "🌿", 
+      desc: "The staples every Indian kitchen runs on", 
+      items: ["Turmeric", "Red Chilli", "Coriander", "More"],
+      color: COLORS.primaryRed 
+    },
+    { 
+      name: "Blended Masalas", 
+      icon: "🫙", 
+      desc: "Perfectly balanced flavours, ready to cook", 
+      items: ["Garam Masala", "Kitchen King", "Sabji Masala", "More"],
+      color: COLORS.gold 
+    },
+    { 
+      name: "Ready to Use Mixes", 
+      icon: "⚡", 
+      desc: "Convenience without compromising taste", 
+      items: ["Sambar Mix", "Tomato Rice Mix", "Lemon Rice Mix", "More"],
+      color: COLORS.accentOrange 
+    },
+    { 
+      name: "Chutneys", 
+      icon: "🥣", 
+      desc: "Authentic chutneys for every snack", 
+      items: ["Coconut Red", "Coconut Green", "Vada Pav", "More"],
+      color: "#8D6E63" 
+    },
+  ];
+
+  const handleCategoryClick = (categoryName) => {
+    setSelectedCategory(categoryName);
+    setActivePage("Products");
+  };
+
   return (
     <section style={{ background: COLORS.skinLight, padding: "100px 5vw", overflow: "hidden" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+
+        {/* Header */}
         <ScrollRevealSection>
           <div style={{ textAlign: "center", marginBottom: 64 }}>
             <motion.div
@@ -54,11 +59,12 @@ const handleCategoryClick = (categoryName) => {
               Find Your Perfect Blend
             </h2>
             <p style={{ fontSize: 16, color: COLORS.muted, maxWidth: 600, margin: "0 auto", lineHeight: 1.8 }}>
-              From everyday essentials to ready-to-use mixes — every product is crafted to bring authentic Indian flavours to your kitchen.
+              From everyday essentials to Ready to Use Mixes — every product is crafted to bring authentic Indian flavours to your kitchen.
             </p>
           </div>
         </ScrollRevealSection>
 
+        {/* Cards */}
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -74,56 +80,83 @@ const handleCategoryClick = (categoryName) => {
               transition={{ type: "spring", stiffness: 300 }}
               style={{
                 background: COLORS.white,
-                borderRadius: 20, 
+                borderRadius: 20,
                 padding: "36px 28px",
                 boxShadow: "0 4px 20px rgba(0,0,0,0.04)",
                 cursor: "pointer",
                 border: `1px solid ${cat.color}15`,
+                display: "flex",               // ✅ important
+                flexDirection: "column",       // ✅ important
               }}
-             onClick={() => handleCategoryClick(cat.name)}
+              onClick={() => handleCategoryClick(cat.name)}
             >
+              {/* Icon */}
               <motion.div
                 whileHover={{ rotate: 10, scale: 1.05 }}
                 style={{
-                  width: 70, 
-                  height: 70, 
+                  width: 70,
+                  height: 70,
                   borderRadius: 20,
                   background: `${cat.color}10`,
-                  display: "flex", 
-                  alignItems: "center", 
+                  display: "flex",
+                  alignItems: "center",
                   justifyContent: "center",
-                  fontSize: 36, 
+                  fontSize: 36,
                   marginBottom: 20,
                 }}
               >
                 {cat.icon}
               </motion.div>
+
+              {/* Title */}
               <h3 className="playfair" style={{ fontSize: 24, fontWeight: 700, marginBottom: 8, color: COLORS.charcoal }}>
                 {cat.name}
               </h3>
+
+              {/* Description */}
               <p style={{ fontSize: 14, color: COLORS.muted, marginBottom: 16, fontStyle: "italic" }}>
                 {cat.desc}
               </p>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 20 }}>
+
+              {/* Items */}
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 8 ,marginBottom:15}}>
                 {cat.items.map((item, idx) => (
-                  <span key={idx} style={{
-                    fontSize: 12,
-                    background: `${cat.color}08`,
-                    padding: "4px 12px",
-                    borderRadius: 50,
-                    color: cat.color,
-                    fontWeight: 500,
-                  }}>
+                  <span
+                    key={idx}
+                    style={{
+                      fontSize: 12,
+                      background: `${cat.color}08`,
+                      padding: "4px 12px",
+                      borderRadius: 50,
+                      color: cat.color,
+                      fontWeight: 500,
+                    }}
+                  >
                     {item}
                   </span>
                 ))}
               </div>
-              <motion.span
+
+              {/* ✅ Bottom Fixed CTA */}
+              <motion.div
                 whileHover={{ x: 5 }}
-                style={{ fontSize: 13, fontWeight: 600, color: cat.color, display: "flex", alignItems: "center", gap: 6 }}
+                style={{
+                  marginTop: "auto",            // 🔥 pushes to bottom
+                  background: cat.color,        // 🔥 background same as theme
+                  color: "#fff",                // 🔥 white text
+                  padding: "8px 10px",
+                  borderRadius: 12,
+                  fontSize: 10,
+                  fontWeight: 600,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                }}
               >
-                Shop Collection <span>→</span>
-              </motion.span>
+                <span>Shop Collection</span>
+                <span>→</span>
+              </motion.div>
+
             </motion.div>
           ))}
         </motion.div>

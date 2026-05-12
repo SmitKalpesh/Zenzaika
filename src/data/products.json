@@ -159,7 +159,7 @@
     {
       "id": 7,
       "name": "Sambhar Masala",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A tangy and mildly spicy blend that brings out the authentic taste of traditional sambhar with a comforting depth of flavor.",
       "image": "/src/assets/images/Zenzaika Sambhar Masala.jpeg",
       "bg": "#FFF3EC",
@@ -176,7 +176,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -991,7 +991,7 @@
     {
       "id": 39,
       "name": "Madras Curry Powder",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A vibrant blend delivering a slightly spicy and aromatic taste, perfect for traditional curry preparations.",
       "image": "/src/assets/images/Zenzaika Madras Curry Powder.jpeg",
       "bg": "#FFF4EC",
@@ -1008,7 +1008,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1173,7 +1173,7 @@
     {
       "id": 46,
       "name": "Madras Sambar Mix Powder",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A carefully balanced blend of spices crafted to deliver the authentic tangy and mildly spicy taste of classic Madras-style sambar.",
       "image": "/src/assets/images/Zenzaika Madras Sambar Mix Powder.jpeg",
       "bg": "#FFF3EC",
@@ -1190,7 +1190,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1199,7 +1199,7 @@
     {
       "id": 47,
       "name": "Rasam Powder",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A delicate yet flavorful blend that delivers a tangy and peppery taste, ideal for light and comforting meals.",
       "image": "/src/assets/images/Zenzaika Rasam Powder.jpeg",
       "bg": "#FFF4EC",
@@ -1216,7 +1216,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1225,7 +1225,7 @@
     {
       "id": 48,
       "name": "Tomato Rice Powder",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A well-rounded mix that brings together the tanginess of tomato with mild spices, creating a rich and satisfying flavor for quick meals.",
       "image": "/src/assets/images/Zenzaika Tomato Rice Powder.jpeg",
       "bg": "#FFF5F0",
@@ -1242,7 +1242,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1251,7 +1251,7 @@
     {
       "id": 49,
       "name": "Curry Leaves Rice Powder",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A flavorful blend enriched with the natural essence of curry leaves, delivering a mild, earthy taste with a subtle spice.",
       "image": "/src/assets/images/Zenzaika Curry Leaves Rice Powder.jpeg",
       "bg": "#F0F7E8",
@@ -1268,7 +1268,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1277,7 +1277,7 @@
     {
       "id": 50,
       "name": "Paruppu Podi Dal Rice Powder",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A balanced mix of lentils and spices that delivers a comforting, mildly spiced taste with a rich and satisfying texture.",
       "image": "/src/assets/images/Zenzaika Paruppu Podi Dal Rice Powder.jpeg",
       "bg": "#FFF6F0",
@@ -1294,7 +1294,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1303,7 +1303,7 @@
     {
       "id": 51,
       "name": "Madras Sambar Powder",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A traditional spice blend that delivers the familiar taste of everyday sambar with a perfect balance of tanginess and spice.",
       "image": "/src/assets/images/Zenzaika Madras Sambar Powder.jpeg",
       "bg": "#FFF3EC",
@@ -1320,7 +1320,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1355,7 +1355,7 @@
     {
       "id": 53,
       "name": "Drumstick Leaves Idli Podi",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A wholesome mix enriched with drumstick leaves, offering a balanced taste with mild spice and earthy undertones.",
       "image": "/src/assets/images/Zenzaika Drumstick Leaves Idli Podi.jpeg",
       "bg": "#F0F7E8",
@@ -1372,7 +1372,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1381,7 +1381,7 @@
     {
       "id": 54,
       "name": "Black Pepper Idli Podi",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A bold blend centered around black pepper, delivering a strong and warming heat for those who enjoy intense flavors.",
       "image": "/src/assets/images/Zenzaika Black Pepper Idli Podi.jpeg",
       "bg": "#FFF3EC",
@@ -1398,7 +1398,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1407,7 +1407,7 @@
     {
       "id": 55,
       "name": "Curry Leaves Idli Podi",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A flavorful blend enriched with curry leaves, offering a mild, earthy taste with a gentle hint of spice.",
       "image": "/src/assets/images/Zenzaika Curry Leaves Idli Podi.jpeg",
       "bg": "#F0F7E8",
@@ -1424,7 +1424,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1459,7 +1459,7 @@
     {
       "id": 57,
       "name": "Lemon Rice Mix",
-      "category": "Ready-to-Use Mixes",
+      "category": "Ready to Use Mixes",
       "desc": "A zesty blend that combines citrusy notes with mild spices, creating a bright and refreshing taste for quick meals.",
       "image": "/src/assets/images/Zenzaika Lemon Rice Mix.jpg",
       "bg": "#FFF8F0",
@@ -1476,7 +1476,7 @@
       },
       "additionalInfo": {
         "productSizes": "50 gram, 100 gram",
-        "category": "Ready-to-Use Mixes",
+        "category": "Ready to Use Mixes",
         "storage": "Store in a cool, dry place away from direct sunlight",
         "shelfLife": "12 months from manufacturing date",
         "certification": "FSSAI Certified, 100% Natural"
@@ -1513,7 +1513,7 @@
       "name": "Cumin Powder",
       "category": "Everyday Essentials",
       "desc": "Warm and nutty, sourced from the finest cumin seeds for that authentic earthy flavour.",
-      "image": "/src/assets/images/Zenzaika Cumin Powder.jpeg",
+      "image": "/src/assets/images/Zenzaika Cumin Powder.png",
       "bg": "#FFF8F2",
       "inStock": true,
       "isFeatured": true,

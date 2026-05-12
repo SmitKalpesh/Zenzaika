@@ -34,28 +34,75 @@ export const AboutPreview = ({ setActivePage }) => {
       }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr", gap: 50, alignItems: "center" }}>
           
+  
           {/* Image Section */}
-          <div style={{
-            width: "100%", 
-            aspectRatio: "4/5", 
-            borderRadius: 24,
-            background: `linear-gradient(145deg, ${COLORS.primaryRed}, ${COLORS.deepRed})`,
-            display: "flex", 
-            flexDirection: "column",
-            alignItems: "center", 
-            justifyContent: "center",
-            gap: 20,
-            boxShadow: "0 32px 60px rgba(192,57,43,0.15)",
-            position: "relative", 
-            overflow: "hidden",
-          }}>
-            <div style={{ position: "absolute", top: 0, right: 0, width: 200, height: 200, borderRadius: "50%", background: "rgba(212,175,55,0.1)" }} />
-            <div style={{ position: "absolute", bottom: 0, left: 0, width: 150, height: 150, borderRadius: "50%", background: "rgba(244,219,200,0.08)" }} />
-            <span style={{ fontSize: 60, position: "relative", zIndex: 1 }}>🌿</span>
-            <div className="playfair" style={{ fontSize: 24, fontWeight: 700, color: "#fff", textAlign: "center", position: "relative", zIndex: 1, padding: "0 20px" }}>
-              Where Every Spice <br/>Tells a Story
-            </div>
-          </div>
+<div
+  style={{
+    width: "100%",
+    aspectRatio: "4/5",
+    borderRadius: 24,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 20,
+    boxShadow: "0 32px 60px rgba(192,57,43,0.15)",
+    position: "relative",
+    overflow: "hidden",
+  }}
+>
+  {/*  Background Image */}
+  <img
+    src="src/assets/images/ourstory.jpg" 
+    alt="Story Background"
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      zIndex: 0,
+    }}
+  />
+
+  {/* Optional dark overlay */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0,0,0,0.4)",
+      zIndex: 1,
+    }}
+  />
+
+  {/* Existing circles */}
+  <div
+    style={{
+      position: "absolute",
+      top: 0,
+      right: 0,
+      width: 200,
+      height: 200,
+      borderRadius: "50%",
+      background: "rgba(212,175,55,0.1)",
+      zIndex: 2,
+    }}
+  />
+  <div
+    style={{
+      position: "absolute",
+      bottom: 0,
+      left: 0,
+      width: 150,
+      height: 150,
+      borderRadius: "50%",
+      background: "rgba(244,219,200,0.08)",
+      zIndex: 2,
+    }}
+  />
+
+</div>
 
           {/* Text Section - No animations */}
           <div>
@@ -95,31 +142,65 @@ export const AboutPreview = ({ setActivePage }) => {
   return (
     <section style={{ background: COLORS.skinWarm, padding: "100px 5vw", overflow: "hidden", scrollMarginTop: "80px" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }} className="responsive-grid">
-        <ScrollRevealSection>
-          <motion.div
-            whileHover={{ scale: 1.01 }}
-            style={{
-              width: "100%", 
-              aspectRatio: "4/5", 
-              borderRadius: 24,
-              background: `linear-gradient(145deg, ${COLORS.primaryRed}, ${COLORS.deepRed})`,
-              display: "flex", 
-              flexDirection: "column",
-              alignItems: "center", 
-              justifyContent: "center",
-              gap: 20,
-              boxShadow: "0 32px 60px rgba(192,57,43,0.15)",
-              position: "relative", 
-              overflow: "hidden",
-            }}
-          >
-            <motion.div animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0.1, 0.3] }} transition={{ duration: 5, repeat: Infinity }} style={{ position: "absolute", top: 0, right: 0, width: 200, height: 200, borderRadius: "50%", background: "rgba(212,175,55,0.1)" }} />
-            <motion.span animate={{ rotate: [0, 5, 0] }} transition={{ duration: 4, repeat: Infinity }} style={{ position: "relative", fontSize: 80 }}>🌿</motion.span>
-            <div className="playfair" style={{ fontSize: 24, fontWeight: 700, color: "#fff", textAlign: "center", position: "relative", zIndex: 1, padding: "0 20px" }}>
-              Where Every Spice <br/>Tells a Story
-            </div>
-          </motion.div>
-        </ScrollRevealSection>
+       <ScrollRevealSection>
+  <motion.div
+    whileHover={{ scale: 1.01 }}
+    style={{
+      width: "100%",
+      aspectRatio: "4/5",
+      borderRadius: 24,
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: 20,
+      boxShadow: "0 32px 60px rgba(192,57,43,0.15)",
+      position: "relative",
+      overflow: "hidden",
+    }}
+  >
+    {/* ✅ Background Image */}
+    <img
+      src="/src/assets/images/ourstory.jpg" // 🔥 replace with your image path
+      alt="Story Background"
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+        zIndex: 0,
+      }}
+    />
+
+    {/* Optional overlay for readability */}
+    <div
+      style={{
+        position: "absolute",
+        inset: 0,
+        background: "rgba(0,0,0,0.4)",
+        zIndex: 1,
+      }}
+    />
+
+    {/* Existing animated circle */}
+    <motion.div
+      animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0.1, 0.3] }}
+      transition={{ duration: 5, repeat: Infinity }}
+      style={{
+        position: "absolute",
+        top: 0,
+        right: 0,
+        width: 200,
+        height: 200,
+        borderRadius: "50%",
+        background: "rgba(212,175,55,0.1)",
+        zIndex: 2,
+      }}
+    />
+  </motion.div>
+</ScrollRevealSection>
 
         <ScrollRevealSection delay={0.2}>
           <span className="section-badge">Our Story</span>
@@ -127,7 +208,7 @@ export const AboutPreview = ({ setActivePage }) => {
             From Humble Roots to<br /><em style={{ color: COLORS.primaryRed }}>India's Finest</em>
           </h2>
           <p style={{ fontSize: 15, color: COLORS.muted, lineHeight: 1.9, marginBottom: 20 }}>
-            Founded in the heart of Gujarat, Zenzaika Foods began as a small family venture with a single, unwavering belief — that the finest food comes from the finest ingredients.
+            Founded in the heart of Maharashtra, Zenzaika Foods began as a small family venture with a single, unwavering belief — that the finest food comes from the finest ingredients.
           </p>
           <p style={{ fontSize: 15, color: COLORS.muted, lineHeight: 1.9, marginBottom: 32 }}>
             Today, we serve over a million families across India, but our promise remains the same: authentic flavours, honest ingredients, and a legacy of love in every product.

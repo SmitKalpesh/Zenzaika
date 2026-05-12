@@ -5,6 +5,7 @@ export const Breadcrumbs = ({ activePage, setActivePage }) => {
   const breadcrumbItems = {
     Home: ["Home"],
     Products: ["Home", "Products"],
+     Recipes: ["Home", "Recipes"],
     About: ["Home", "About"],
     Contact: ["Home", "Contact"],
   };

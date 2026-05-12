@@ -14,6 +14,9 @@ const HomePage = lazy(() =>
 const ProductsPage = lazy(() => 
   import("./assets/Pages/ProductsPage").then(module => ({ default: module.ProductsPage }))
 );
+const RecipesPage = lazy(() => 
+  import("./assets/Pages/RecipesPage").then(module => ({ default: module.RecipesPage }))
+);
 const AboutPage = lazy(() => 
   import("./assets/Pages/AboutPage").then(module => ({ default: module.AboutPage }))
 );
@@ -52,7 +55,7 @@ const LoadingFallback = () => (
 
 function App() {
   const [activePage, setActivePage] = useState("Home");
-  const [selectedCategory, setSelectedCategory] = useState(null);  // ← ADD THIS
+  const [selectedCategory, setSelectedCategory] = useState(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -63,8 +66,9 @@ function App() {
   }, [activePage]);
 
   const pages = {
-    Home: <HomePage setActivePage={setActivePage} setSelectedCategory={setSelectedCategory} />,  // ← ADD HERE
-    Products: <ProductsPage setActivePage={setActivePage} selectedCategory={selectedCategory} />,  // ← ADD HERE
+    Home: <HomePage setActivePage={setActivePage} setSelectedCategory={setSelectedCategory} />,
+    Products: <ProductsPage setActivePage={setActivePage} selectedCategory={selectedCategory} />,
+    Recipes: <RecipesPage setActivePage={setActivePage} />,
     About: <AboutPage setActivePage={setActivePage} />,
     Contact: <ContactPage setActivePage={setActivePage} />,
   };
@@ -89,7 +93,7 @@ function App() {
           </motion.div>
         </AnimatePresence>
       </main>
-      <Footer setActivePage={setActivePage}   setSelectedCategory={setSelectedCategory} />
+      <Footer setActivePage={setActivePage} setSelectedCategory={setSelectedCategory} />
       <BackToTop />
     </>
   );

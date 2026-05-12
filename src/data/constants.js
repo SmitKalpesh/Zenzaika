@@ -24,4 +24,4 @@ export const COLORS = {
   accentOrange: "#E67E22",
 };
 
-export const NAV_ITEMS = ["Home", "Products", "About", "Contact"];
+export const NAV_ITEMS = ["Home", "Products","Recipes", "About", "Contact"];
